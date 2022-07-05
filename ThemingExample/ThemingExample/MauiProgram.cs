@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components.WebView.Maui;
+using ThemingExample.Shared.State;
 using ThemingExample.ThemeManager;
 
 namespace ThemingExample;
@@ -22,6 +23,8 @@ public static class MauiProgram
         
 		builder.Services.AddSingleton<Resources.Styles.Colors>();
 		builder.Services.AddSingleton<IThemeManager, ThemeManager.ThemeManager>();
+
+		builder.Services.AddSingleton<PreferencesState>();
 		
 		return builder.Build();
 	}
