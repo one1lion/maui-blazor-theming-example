@@ -1,6 +1,23 @@
 ﻿@page "/"
+@using ThemingExample.Shared.State
+@using ThemingExample.Shared.Theming
 
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
 
+<div>
+    <label>
+        Active Theme:
+        <select @bind=PreferencesState.ActiveTheme>
+            @foreach (var curTheme in Enum.GetValues<ColorTheme>())
+            {
+                <option value="@curTheme">@curTheme</option>
+            }
+        </select>
+    </label>
+</div>
+
+@code {
+    [Inject] private PreferencesState PreferencesState { get; set; } = default!;
+}

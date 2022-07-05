@@ -8,7 +8,7 @@ using ThemingExample.Platforms.Windows;
 
 namespace ThemingExample;
 
-public partial class App : Application
+public partial class App : Application, IDisposable
 {
 	private readonly IThemeManager _themeManager;
 	private readonly PreferencesState _preferencesState;
@@ -23,11 +23,21 @@ public partial class App : Application
         ApplyTheme(_preferencesState.ActiveTheme);
         Current.Resources.MergedDictionaries.Add(themeManager[_preferencesState.ActiveTheme]);
 		Current.Resources.MergedDictionaries.Add(new Resources.Styles.Styles());
-        
-		InitializeComponent();
+
+        _preferencesState.PropertyChanged += HandlePreferenceChanged;
+
+        InitializeComponent();
 
 		MainPage = new MainPage();
 	}
+
+    private void HandlePreferenceChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+    {
+        if (e.PropertyName == nameof(PreferencesState.ActiveTheme))
+        {
+            ApplyTheme(_preferencesState.ActiveTheme);
+        }
+    }
 
     private void ApplyTheme(ColorTheme theme)
     {
@@ -57,4 +67,8 @@ public partial class App : Application
         return window;
     }
 
+    public void Dispose()
+    {
+        _preferencesState.PropertyChanged -= HandlePreferenceChanged;
+    }
 }
