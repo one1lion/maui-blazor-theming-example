@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ThemingExample.Resources.Styles.Colors">
+
+    <!-- These are basic -->
+    <Color x:Key="Color.White">#FFF</Color>
+    <Color x:Key="Color.Black">#000</Color>
+
+    <!-- These are shades of hair -->
+    <Color x:Key="Color.Boo1">#1E66EB</Color>
+    <Color x:Key="Color.Boo2">#1D60DE</Color>
+    <Color x:Key="Color.Boo3">#1A55C4</Color>
+    <Color x:Key="Color.Boo4">#15459E</Color>
+    <Color x:Key="Color.Boo5">#0D2B61</Color>
+
+    <!-- These are shades of cool -->
+    <Color x:Key="Color.Ernge1">#EB6015</Color>
+    <Color x:Key="Color.Ernge2">#DE5B14</Color>
+    <Color x:Key="Color.Ernge3">#C45012</Color>
+    <Color x:Key="Color.Ernge4">#9E410E</Color>
+    <Color x:Key="Color.Ernge5">#5E2708</Color>
+
+    <!-- These are shades of teach -->
+    <Color x:Key="Color.Grain1">#1EEB4B</Color>
+    <Color x:Key="Color.Grain2">#1DDE47</Color>
+    <Color x:Key="Color.Grain3">#1AC43F</Color>
+    <Color x:Key="Color.Grain4">#159E33</Color>
+    <Color x:Key="Color.Grain5">#0C5C1D</Color>
+
+    <!-- These are shades of Tasty -->
+    <Color x:Key="Color.Kohii1">#EBA17F</Color>
+    <Color x:Key="Color.Kohii2">#DE9878</Color>
+    <Color x:Key="Color.Kohii3">#C4876A</Color>
+    <Color x:Key="Color.Kohii4">#9E6C55</Color>
+    <Color x:Key="Color.Kohii5">#614234</Color>
+
+    <!-- These are shades of JuicyBoo -->
+    <Color x:Key="Color.JuicyBoo1">#34B7EB</Color>
+    <Color x:Key="Color.JuicyBoo2">#31ADDE</Color>
+    <Color x:Key="Color.JuicyBoo3">#2B99C4</Color>
+    <Color x:Key="Color.JuicyBoo4">#237B9E</Color>
+    <Color x:Key="Color.JuicyBoo5">#14485C</Color>
+
+    <!-- These are shades of Viewers -->
+    <Color x:Key="Color.zaiddoescare">#f9674b</Color>
+    <Color x:Key="Color.DukaSoft">#5f271c</Color>
+    <Color x:Key="Color.nerdherder">#17ff0c</Color>
+    <Color x:Key="Color.zultralord">#e7fa00</Color>
+    <Color x:Key="Color.DankeyKang1299">#ff648e</Color>
+    <Color x:Key="Color.narukxge">#e17133</Color>
+    <Color x:Key="Color.progtesting">#a164ea</Color>
+    <Color x:Key="Color.Disgo12345">#c75b5b</Color>
+    <Color x:Key="Color.SoftAsInSoftware">#daa520</Color>
+
+    <!-- TODO: These are shades of the Dark Side -->
+</ResourceDictionary>

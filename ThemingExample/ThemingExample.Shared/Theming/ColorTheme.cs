@@ -1,6 +1,11 @@
 ﻿namespace ThemingExample.Shared.Theming;
 
-public class ColorTheme
+public enum ColorTheme
 {
-
+    Light,
+    Dark,
+    Boo,
+    Ernge,
+    Grain,
+    Kohii
 }

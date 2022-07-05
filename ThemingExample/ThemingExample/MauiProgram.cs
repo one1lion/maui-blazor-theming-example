@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components.WebView.Maui;
+using ThemingExample.ThemeManager;
 
 namespace ThemingExample;
 
@@ -15,9 +16,12 @@ public static class MauiProgram
 			});
 
 		builder.Services.AddMauiBlazorWebView();
-		#if DEBUG
+#if DEBUG
 		builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
+        
+		builder.Services.AddSingleton<Resources.Styles.Colors>();
+		builder.Services.AddSingleton<IThemeManager, ThemeManager.ThemeManager>();
 		
 		return builder.Build();
 	}
