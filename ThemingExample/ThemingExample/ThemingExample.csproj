@@ -65,4 +65,8 @@
 	  </MauiXaml>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="CustomElements\" />
+	</ItemGroup>
+
 </Project>

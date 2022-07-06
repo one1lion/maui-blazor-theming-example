@@ -32,6 +32,8 @@ public partial class App : MauiWinUIApplication
             var nativeWindow = handler.PlatformView;
             nativeWindow.Activate();
 
+            //nativeWindow.ExtendsContentIntoTitleBar = true;
+            //nativeWindow.SetTitleBar(/*something*/);
             var hWnd = WindowNative.GetWindowHandle(nativeWindow);
             var windowId = Win32Interop.GetWindowIdFromWindow(hWnd);
             var appWindow = AppWindow.GetFromWindowId(windowId);

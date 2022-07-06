@@ -54,13 +54,58 @@
     --button-fore-color: var(--blue);
 }
 
-body.theme.boo {
+body.theme-boo {
     --page-background-color: var(--boo4);
     --primary-text-color: var(--white);
     --bar-background-color: var(--boo5);
     --bar-text-color: var(--boo1);
     --button-background-color: var(--boo5);
-    --button-fore-color: var(--blue);
+    --button-fore-color: var(--white);
+}
+
+body.theme-dark {
+    --page-background-color: var(--black);
+    --primary-text-color: var(--white);
+    --bar-background-color: var(--black);
+    --bar-text-color: var(--white);
+    --button-background-color: var(--black);
+    --button-fore-color: var(--white);
+}
+
+body.theme-ernge {
+    --page-background-color: var(--ernge4);
+    --primary-text-color: var(--white);
+    --bar-background-color: var(--ernge5);
+    --bar-text-color: var(--ernge1);
+    --button-background-color: var(--ernge5);
+    --button-fore-color: var(--white);
+}
+
+body.theme-grain {
+    --page-background-color: var(--grain4);
+    --primary-text-color: var(--white);
+    --bar-background-color: var(--grain5);
+    --bar-text-color: var(--grain1);
+    --button-background-color: var(--grain5);
+    --button-fore-color: var(--white);
+}
+
+body.theme-kohii {
+    --page-background-color: var(--kohii4);
+    --primary-text-color: var(--white);
+    --bar-background-color: var(--kohii5);
+    --bar-text-color: var(--kohii1);
+    --button-background-color: var(--kohii5);
+    --button-fore-color: var(--white);
+}
+
+body.theme-light {
+    --page-background-color: var(--white);
+    --primary-text-color: var(--black);
+    --bar-background-color: var(--white);
+    --bar-text-color: var(--black);
+    --button-background-color: var(--boo5);
+    --button-fore-color: var(--white);
 }
 
 html, body {
@@ -78,7 +123,7 @@ a, .btn-link {
 }
 
 .btn-primary {
-    color: #fff;
+    color: var(--button-fore-color);
     background-color: var(--button-background-color); /*#1b6ec2;*/
     border-color: var(--button-fore-color);/*#1861ac;*/
 }
