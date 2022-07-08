@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components.WebView.Maui;
+using Microsoft.Maui.LifecycleEvents;
 using ThemingExample.Shared.State;
 using ThemingExample.ThemeManager;
 
@@ -14,7 +15,20 @@ public static class MauiProgram
 			.ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-			});
+			})
+			.ConfigureLifecycleEvents(events =>
+            {
+#if WINDOWS
+				events.AddWindows(windows => windows
+					.OnWindowCreated(async window =>
+					{
+						window.ExtendsContentIntoTitleBar = true;
+						await Task.Delay(60);
+						window.SetTitleBar(null);
+					})
+				);
+#endif
+			}); ;
 
 		builder.Services.AddMauiBlazorWebView();
 #if DEBUG

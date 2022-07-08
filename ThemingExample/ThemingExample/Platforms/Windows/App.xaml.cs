@@ -4,6 +4,7 @@
 using Microsoft.Maui.Handlers;
 using Microsoft.UI;
 using Microsoft.UI.Windowing;
+using Microsoft.UI.Xaml;
 using ThemingExample.Platforms.Windows;
 using ThemingExample.Shared.State;
 using ThemingExample.ThemeManager;
@@ -33,7 +34,10 @@ public partial class App : MauiWinUIApplication
             nativeWindow.Activate();
 
             //nativeWindow.ExtendsContentIntoTitleBar = true;
-            //nativeWindow.SetTitleBar(/*something*/);
+            //nativeWindow.SetTitleBar(null);
+            //var custTitleBar = (Microsoft.UI.Xaml.Controls.Grid)Resources["AppTitleBar"];
+            //nativeWindow.SetTitleBar(custTitleBar);
+
             var hWnd = WindowNative.GetWindowHandle(nativeWindow);
             var windowId = Win32Interop.GetWindowIdFromWindow(hWnd);
             var appWindow = AppWindow.GetFromWindowId(windowId);

@@ -52,6 +52,7 @@
     --bar-text-color: var(--white);
     --button-background-color: var(--blue);
     --button-fore-color: var(--blue);
+    --sidebar-gradient: linear-gradient(180deg, var(--white) 0%, var(--black) 70%);
 }
 
 body.theme-boo {
@@ -61,6 +62,7 @@ body.theme-boo {
     --bar-text-color: var(--boo1);
     --button-background-color: var(--boo5);
     --button-fore-color: var(--white);
+    --sidebar-gradient: linear-gradient(180deg, var(--boo5) 0%, var(--juicyBoo4) 70%);
 }
 
 body.theme-dark {
@@ -70,6 +72,7 @@ body.theme-dark {
     --bar-text-color: var(--white);
     --button-background-color: var(--black);
     --button-fore-color: var(--white);
+    --sidebar-gradient: linear-gradient(180deg, var(--black) 0%, var(--black) 70%);
 }
 
 body.theme-ernge {
@@ -79,6 +82,7 @@ body.theme-ernge {
     --bar-text-color: var(--ernge1);
     --button-background-color: var(--ernge5);
     --button-fore-color: var(--white);
+    --sidebar-gradient: linear-gradient(180deg, var(--ernge5) 0%, var(--ernge3) 70%);
 }
 
 body.theme-grain {
@@ -88,6 +92,7 @@ body.theme-grain {
     --bar-text-color: var(--grain1);
     --button-background-color: var(--grain5);
     --button-fore-color: var(--white);
+    --sidebar-gradient: linear-gradient(180deg, var(--grain5) 0%, var(--grain3) 70%);
 }
 
 body.theme-kohii {
@@ -97,6 +102,7 @@ body.theme-kohii {
     --bar-text-color: var(--kohii1);
     --button-background-color: var(--kohii5);
     --button-fore-color: var(--white);
+    --sidebar-gradient: linear-gradient(180deg, var(--kohii5) 0%, var(--kohii3) 70%);
 }
 
 body.theme-light {
@@ -106,6 +112,7 @@ body.theme-light {
     --bar-text-color: var(--black);
     --button-background-color: var(--boo5);
     --button-fore-color: var(--white);
+    --sidebar-gradient: linear-gradient(180deg, var(--white) 0%, var(--black) 70%);
 }
 
 html, body {
