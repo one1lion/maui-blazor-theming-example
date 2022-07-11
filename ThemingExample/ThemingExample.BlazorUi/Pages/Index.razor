@@ -1,4 +1,5 @@
 ﻿@page "/"
+@using ThemingExample.Shared.Skinning
 @using ThemingExample.Shared.State
 @using ThemingExample.Shared.Theming
 
@@ -20,9 +21,26 @@ Welcome to your new app.
         </select>
     </label>
     
-    <button type="button" class="btn-primary">It's a button</button>
+    <button type="button" class="btn-primary" @onclick=HandleButtonClicked>It's a button</button>
+</div>
+<div>
+    <label>
+        Active Skin:
+        <select @bind=PreferencesState.ActiveSkin>
+            @foreach (var curSkin in Enum.GetValues<Skin>())
+            {
+                <option value="@curSkin">@curSkin</option>
+            }
+        </select>
+    </label>
 </div>
 
 @code {
     [Inject] private PreferencesState PreferencesState { get; set; } = default!;
+    [Inject] private IJSRuntime JsRuntime { get; set; } = default!;
+
+    private async Task HandleButtonClicked()
+    {
+        await JsRuntime.InvokeVoidAsync("supportFuncs.setA");
+    }
 }

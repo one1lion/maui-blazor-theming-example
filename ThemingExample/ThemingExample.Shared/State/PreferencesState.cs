@@ -1,4 +1,5 @@
-﻿using ThemingExample.Shared.Theming;
+﻿using ThemingExample.Shared.Skinning;
+using ThemingExample.Shared.Theming;
 
 namespace ThemingExample.Shared.State;
 
@@ -37,4 +38,7 @@ public class PreferencesState : BaseState
 
     private ColorTheme _activeTheme = ColorTheme.Kohii;
     public ColorTheme ActiveTheme { get => _activeTheme; set => SetProperty(ref _activeTheme, value); }
+
+    private Skin _activeSkin = Skin.BlazorStandard;
+    public Skin ActiveSkin { get => _activeSkin; set => SetProperty(ref _activeSkin, value); }
 }

@@ -18,7 +18,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThemingExample.PureMaui", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{93C1E41C-0204-417D-B15B-D8DAF4ADF5A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemingExample.BlazorWeb", "ThemingExample.BlazorWeb\ThemingExample.BlazorWeb.csproj", "{0569EAD1-0D45-4F4C-8DC0-3B4E40302590}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThemingExample.BlazorWeb", "ThemingExample.BlazorWeb\ThemingExample.BlazorWeb.csproj", "{0569EAD1-0D45-4F4C-8DC0-3B4E40302590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemingExample.WebAppExample", "ThemingExample.WebAppExample\ThemingExample.WebAppExample.csproj", "{12A333E8-57D0-4C5F-8776-1A440E235F3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +52,10 @@ Global
 		{0569EAD1-0D45-4F4C-8DC0-3B4E40302590}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0569EAD1-0D45-4F4C-8DC0-3B4E40302590}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0569EAD1-0D45-4F4C-8DC0-3B4E40302590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A333E8-57D0-4C5F-8776-1A440E235F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A333E8-57D0-4C5F-8776-1A440E235F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A333E8-57D0-4C5F-8776-1A440E235F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A333E8-57D0-4C5F-8776-1A440E235F3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{0485CD2F-BA83-4C89-9B1D-E20DBFEA80D6} = {19EFD68D-082A-4295-8B08-ADE862DEBFA0}
 		{7164F81E-9337-4ABF-AE3A-146434E6A59E} = {A1BDE8B7-A774-4D3D-A980-C124A5A0B922}
 		{0569EAD1-0D45-4F4C-8DC0-3B4E40302590} = {93C1E41C-0204-417D-B15B-D8DAF4ADF5A2}
+		{12A333E8-57D0-4C5F-8776-1A440E235F3B} = {93C1E41C-0204-417D-B15B-D8DAF4ADF5A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}

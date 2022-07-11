@@ -46,6 +46,27 @@ export function setThemeClass(themeClass) {
     }
 }
 
+export function setSkinClass(skinClass) {
+    const toRemove = [];
+    const body = document.body;
+
+    if (!skinClass.startsWith('skin-')) { skinClass = `skin-${skinClass}` }
+    skinClass = skinClass.toLowerCase();
+    body.classList.forEach(className => {
+        if (className !== skinClass && className.startsWith("skin-")) {
+            toRemove.push(className);
+        }
+    });
+
+    if (!body.classList.contains(skinClass)) {
+        body.classList.add(skinClass);
+    }
+
+    if (toRemove.length > 0) {
+        toRemove.forEach(className => { body.classList.remove(className); })
+    }
+}
+
 export function setRtl(active) {
     document.getElementsByTagName('HTML')[0].style.direction = active ? 'rtl' : 'ltr';
     const body = document.body;

@@ -1,0 +1,55 @@
+﻿:root {
+    /* Colors */
+    /* These are basic */
+    --white: #FFF;
+    --black: #000;
+    /* These are shades of hair */
+    --boo1: #1E66EB;
+    --boo2: #1D60DE;
+    --boo3: #1A55C4;
+    --boo4: #15459E;
+    --boo5: #0D2B61;
+    /* These are shades of cool */
+    --ernge1: #EB6015;
+    --ernge2: #DE5B14;
+    --ernge3: #C45012;
+    --ernge4: #9E410E;
+    --ernge5: #5E2708;
+    /* These are shades of teach */
+    --grain1: #1EEB4B;
+    --grain2: #1DDE47;
+    --grain3: #1AC43F;
+    --grain4: #159E33;
+    --grain5: #0C5C1D;
+    /* These are shades of Tasty */
+    --kohii1: #EBA17F;
+    --kohii2: #DE9878;
+    --kohii3: #C4876A;
+    --kohii4: #9E6C55;
+    --kohii5: #614234;
+    /* These are shades of JuicyBoo */
+    --juicyBoo1: #34B7EB;
+    --juicyBoo2: #31ADDE;
+    --juicyBoo3: #2B99C4;
+    --juicyBoo4: #237B9E;
+    --juicyBoo5: #14485C;
+    /* These are shades of Viewers */
+    --zaiddoescare: #f9674b;
+    --dukaSoft: #5f271c;
+    --nerdherder: #17ff0c;
+    --zultralord: #e7fa00;
+    --dankeyKang1299: #ff648e;
+    --narukxge: #e17133;
+    --progtesting: #a164ea;
+    --disgo12345: #c75b5b;
+    --softAsInSoftware: #daa520;
+    /* ---- Colors End ---- */
+    --page-background-color: var(--black);
+    --primary-text-color: var(--white);
+    --bar-background-color: var(--black);
+    --bar-text-color: var(--white);
+    --button-background-color: var(--blue);
+    --button-fore-color: var(--blue);
+    --sidebar-gradient: linear-gradient(180deg, var(--white) 0%, var(--black) 70%);
+}
+
