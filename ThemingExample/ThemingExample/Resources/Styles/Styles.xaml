@@ -11,8 +11,11 @@
     <Style TargetType="Button">
         <Setter Property="TextColor" Value="{StaticResource PrimaryTextColor}" />
         <Setter Property="FontFamily" Value="OpenSansRegular" />
-        <Setter Property="BackgroundColor" Value="{StaticResource ButtonBackgroundColor}" />
+        <Setter Property="BackgroundColor" Value="{StaticResource BarTextColor}" />
         <Setter Property="Padding" Value="14,10" />
     </Style>
 
+    <Style TargetType="Grid">
+        <Setter Property="BackgroundColor" Value="{StaticResource BarBackgroundColor}" />
+    </Style>
 </ResourceDictionary>

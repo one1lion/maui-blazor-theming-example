@@ -11,7 +11,7 @@ export function setFontClass(fontClass) {
     if (!fontClass.startsWith('font-')) { fontClass = `font-${fontClass}` }
 
     body.classList.forEach(className => {
-        if (className != fontClass && className.startsWith("font-")) {
+        if (className !== fontClass && className.startsWith("font-")) {
             toRemove.push(className);
         }
     });
@@ -30,9 +30,9 @@ export function setThemeClass(themeClass) {
     const body = document.body;
 
     if (!themeClass.startsWith('theme-')) { themeClass = `theme-${themeClass}` }
-
+    themeClass = themeClass.toLowerCase();
     body.classList.forEach(className => {
-        if (className != themeClass && className.startsWith("theme-")) {
+        if (className !== themeClass && className.startsWith("theme-")) {
             toRemove.push(className);
         }
     });
