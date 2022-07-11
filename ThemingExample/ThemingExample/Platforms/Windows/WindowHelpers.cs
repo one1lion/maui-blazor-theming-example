@@ -5,6 +5,7 @@ using ThemingExample.Resources.Themes;
 using ThemingExample.ThemeManager;
 using Microsoft.Maui.Handlers;
 using Microsoft.Maui.Controls;
+using System.Diagnostics;
 
 namespace ThemingExample.Platforms.Windows;
 
@@ -25,6 +26,7 @@ public static class WindowHelpers
     public static void ApplyColorTheme(ThemeResourceDictionary colorTheme, AppWindow appWindow = null)
     {
         return;
+
         if (appWindow is null)
         {
             appWindow = GetActiveAppWindow();
@@ -32,7 +34,6 @@ public static class WindowHelpers
         if (appWindow is null) { return; } // This will be null on initial start
 
 #if WINDOWS
-        appWindow.Title = $"Some new title {Random.Shared.Next()}";
         if (appWindow.TitleBar is null) { return; }
         // The platform directive is needed since the extension method in ThemeHelpers 
         // is also surrounded by one

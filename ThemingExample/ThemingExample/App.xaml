@@ -5,10 +5,10 @@
              x:Class="ThemingExample.App">
 
     <!-- See code behind for setup -->
-    <Application.Resources>
+    <!--<Application.Resources>
         <Grid Grid.Row="0" x:Key="CustomTitleBar" x:Name="CustomTitleBar" ColumnDefinitions="*, auto">
             <Label Grid.Column="0" Text="Theming Example"></Label>
             <Label Grid.Column="1" Text="What is it?"></Label>
         </Grid>
-    </Application.Resources>
+    </Application.Resources>-->
 </Application>

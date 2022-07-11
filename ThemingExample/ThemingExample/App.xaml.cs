@@ -63,7 +63,7 @@ public partial class App : Application, IDisposable
     {
         var window = base.CreateWindow(activationState);
         window.Title = "Theming Example";
-        
+
         return window;
     }
 

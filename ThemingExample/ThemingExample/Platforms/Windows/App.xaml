@@ -6,7 +6,7 @@
     xmlns:local="using:ThemingExample.WinUI">
 
     <maui:MauiWinUIApplication.Resources>
-        <DataTemplate x:Key="MauiAppTitleBarContainerTemplate">
+        <!--<DataTemplate x:Key="MauiAppTitleBarContainerTemplate">
             <Grid HorizontalAlignment="Stretch">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="100"></ColumnDefinition>
@@ -27,7 +27,7 @@
                    x:Name="AppTitleBarContentControl">
                 </ContentControl>
             </Grid>
-        </DataTemplate>
+        </DataTemplate>-->
         <!--<Grid x:Key="AppTitleBar" x:Name="AppTitleBar" Height="32" Background="Transparent">-->
             <!--<Grid.Background>
                     <ImageBrush Stretch="Uniform" ImageSource="Assets/butterfly.png" AlignmentY="Top" AlignmentX="Left"/>
