@@ -1,0 +1,11 @@
+﻿[
+  /* Shared */
+  {
+    "outputFile": "Shared/MainLayout.razor.css",
+    "inputFile": "Sass/MainLayout.scss"
+  },
+  {
+    "outputFile": "Shared/NavMenu.razor.css",
+    "inputFile": "Sass/NavMenu.scss"
+  }
+]

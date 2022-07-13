@@ -1,50 +1,13 @@
-﻿@using System.ComponentModel
-@using ThemingExample.Shared.State
-<Router AppAssembly="@typeof(Main).Assembly">
-	<Found Context="routeData">
-		<RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
-        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
-	</Found>
-	<NotFound>
-		<LayoutView Layout="@typeof(MainLayout)">
-			<p role="alert">Sorry, there's nothing at this address.</p>
-		</LayoutView>
-	</NotFound>
+﻿
+<Router AppAssembly=typeof(Main).Assembly
+        AdditionalAssemblies="new[] { _layoutType.Assembly }">
+    <Found Context="routeData">
+        <RouteView RouteData=routeData DefaultLayout=_layoutType />
+        <FocusOnNavigate RouteData=routeData Selector="h1" />
+    </Found>
+    <NotFound>
+        <LayoutView Layout=_layoutType>
+            <p role="alert">Sorry, there's nothing at this address.</p>
+        </LayoutView>
+    </NotFound>
 </Router>
-
-@code {
-	[Inject] private PreferencesState PreferencesState { get; set; } = default!;
-	[Inject] private IJSRuntime JsRuntime { get; set; } = default!;
-
-	private ValueTask<IJSObjectReference> _module => JsRuntime.InvokeAsync<IJSObjectReference>("import", "/_content/ThemingExample.BlazorUi/js/main-layout-funcs.js");
-	private bool _hasRendered;
-
-	protected override void OnInitialized()
-	{
-		PreferencesState.PropertyChanged += HandlePreferenceChanged;
-	}
-
-	protected override async Task OnAfterRenderAsync(bool firstRender)
-	{
-		if(firstRender)
-		{
-			_hasRendered = true;
-			await UpdateBodyClasses();
-		}
-	}
-
-	private void HandlePreferenceChanged(object? sender, PropertyChangedEventArgs e)
-	{
-		if (e.PropertyName == nameof(PreferencesState.ActiveTheme))
-		{
-			Task.Run(UpdateBodyClasses);
-		}
-	}
-
-	private async Task UpdateBodyClasses()
-	{
-		if(!_hasRendered) { return; }
-        var module = await _module;
-        await module.InvokeAsync<object>("setThemeClass", PreferencesState.ActiveTheme.ToString());
-	}
-}

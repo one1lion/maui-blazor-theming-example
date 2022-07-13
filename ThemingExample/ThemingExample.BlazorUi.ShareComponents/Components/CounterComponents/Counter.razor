@@ -1,0 +1,13 @@
+﻿<button type="button" class="btn-primary" @onclick=HandleButtonClicked>It's a button</button>
+@if (_currentCount > 0)
+{
+    <p>The button was clicked @_currentCount time@(_currentCount != 1 ? "s" : "")</p>
+}
+@code {
+    private int _currentCount;
+
+    private void HandleButtonClicked()
+    {
+        _currentCount++;
+    }
+}

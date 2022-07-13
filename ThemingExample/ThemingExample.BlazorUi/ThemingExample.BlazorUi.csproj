@@ -1,39 +1,45 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
 
 
-  <ItemGroup>
-    <SupportedPlatform Include="browser" />
-  </ItemGroup>
+	<ItemGroup>
+		<SupportedPlatform Include="browser" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.6" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.6" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ThemingExample.Shared\ThemingExample.Shared.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\ThemingExample.BlazorUi.AspNetPagesSkin\ThemingExample.BlazorUi.AspNetPagesSkin.csproj" />
+		<ProjectReference Include="..\ThemingExample.BlazorUi.BlazorHybridSkin\ThemingExample.BlazorUi.BlazorHybridSkin.csproj" />
+		<ProjectReference Include="..\ThemingExample.Shared\ThemingExample.Shared.csproj" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <None Update="Resources\AppIcon\appicon.svg">
-      <Color>#512BD4</Color>
-      <ForegroundFile>Resources\AppIcon\appiconfg.svg</ForegroundFile>
-    </None>
-    <None Update="Resources\Images\dotnet_bot.svg">
-      <BaseSize>168,208</BaseSize>
-    </None>
-    <None Update="Resources\Raw\AboutAssets.txt">
-      <LogicalName>%(RecursiveDir)%(Filename)%(Extension)</LogicalName>
-    </None>
-    <None Update="Resources\Splash\splash.svg">
-      <Color>#512BD4</Color>
-      <BaseSize>128,128</BaseSize>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<None Update="Resources\AppIcon\appicon.svg">
+			<Color>#512BD4</Color>
+			<ForegroundFile>Resources\AppIcon\appiconfg.svg</ForegroundFile>
+		</None>
+		<None Update="Resources\Images\dotnet_bot.svg">
+			<BaseSize>168,208</BaseSize>
+		</None>
+		<None Update="Resources\Raw\AboutAssets.txt">
+			<LogicalName>%(RecursiveDir)%(Filename)%(Extension)</LogicalName>
+		</None>
+		<None Update="Resources\Splash\splash.svg">
+			<Color>#512BD4</Color>
+			<BaseSize>128,128</BaseSize>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="wwwroot\" />
+	</ItemGroup>
 
 </Project>

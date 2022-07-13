@@ -1,0 +1,16 @@
+﻿@using ThemingExample.Shared.State
+@using ThemingExample.Shared.Theming
+
+<label>
+    Active Theme:
+    <select @bind=PreferencesState.ActiveTheme>
+        @foreach (var curTheme in Enum.GetValues<ColorTheme>())
+        {
+            <option value="@curTheme">@curTheme</option>
+        }
+    </select>
+</label>
+
+@code {
+    [Inject] private PreferencesState PreferencesState { get; set; } = default!;
+}

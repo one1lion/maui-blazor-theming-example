@@ -1,0 +1,30 @@
+﻿@page "/"
+@using ThemingExample.BlazorUi.SharedComponents.Components.CounterComponents
+@using ThemingExample.BlazorUi.SharedComponents.Components.ThemeAndSkinComponents
+@using ThemingExample.Shared.Skinning
+@using ThemingExample.Shared.State
+@using ThemingExample.Shared.Theming
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app that is styled like an ASP.NET Core Web application
+<p>
+    Change the theme below to see the Razor components use the new theme as well as the
+    application window's titlebar (when running on Windows 11).
+</p>
+
+<div>
+    <ThemePicker />
+</div>
+@if (PreferencesState.AllowSkinChange)
+{
+    <div>
+        <SkinPicker />
+    </div>
+}
+
+<Counter />
+
+@code {
+    [Inject] private PreferencesState PreferencesState { get; set; } = default!;
+}
