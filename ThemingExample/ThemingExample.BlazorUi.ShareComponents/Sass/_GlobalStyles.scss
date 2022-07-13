@@ -1,9 +1,11 @@
-﻿@import url('/_content/ThemingExample.BlazorUi/css/open-iconic/font/css/open-iconic-bootstrap.min.css');
+﻿@import url('/_content/ThemingExample.BlazorUi.SharedComponents/css/open-iconic/font/css/open-iconic-bootstrap.min.css');
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: var(--page-background-color);
     color: var(--primary-text-color);
+    margin: 0;
+    padding: 0;
 }
 
 h1:focus {

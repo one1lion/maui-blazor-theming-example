@@ -41,4 +41,5 @@ public class PreferencesState : BaseState
 
     private Skin _activeSkin = Skin.BlazorStandard;
     public Skin ActiveSkin { get => _activeSkin; set => SetProperty(ref _activeSkin, value); }
+    public bool AllowSkinChange { get; set; }
 }

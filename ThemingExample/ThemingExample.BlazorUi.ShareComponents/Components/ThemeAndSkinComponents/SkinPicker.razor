@@ -1,0 +1,15 @@
+﻿@using ThemingExample.Shared.Skinning
+@using ThemingExample.Shared.State
+<label>
+    Active Skin:
+    <select @bind=PreferencesState.ActiveSkin>
+        @foreach (var curSkin in Enum.GetValues<Skin>())
+        {
+            <option value="@curSkin">@curSkin</option>
+        }
+    </select>
+</label>
+
+@code {
+    [Inject] private PreferencesState PreferencesState { get; set; } = default!;
+}

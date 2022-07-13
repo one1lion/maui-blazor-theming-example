@@ -1,8 +1,5 @@
 ﻿[
-  {
-    "outputFile": "wwwroot/css/app.css",
-    "inputFile": "Sass/App.scss"
-  },
+  /* Shared */
   {
     "outputFile": "Shared/MainLayout.razor.css",
     "inputFile": "Sass/MainLayout.scss"

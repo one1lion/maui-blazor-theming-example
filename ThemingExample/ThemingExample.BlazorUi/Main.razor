@@ -1,70 +1,13 @@
-﻿@using System.ComponentModel
-@using ThemingExample.Shared.State
-<Router AppAssembly="@typeof(Main).Assembly">
-	<Found Context="routeData">
-		<RouteView RouteData="@routeData" DefaultLayout=_layoutType />
-        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
-	</Found>
-	<NotFound>
-		<LayoutView Layout=_layoutType>
-			<p role="alert">Sorry, there's nothing at this address.</p>
-		</LayoutView>
-	</NotFound>
+﻿
+<Router AppAssembly=typeof(Main).Assembly
+        AdditionalAssemblies="new[] { _layoutType.Assembly }">
+    <Found Context="routeData">
+        <RouteView RouteData=routeData DefaultLayout=_layoutType />
+        <FocusOnNavigate RouteData=routeData Selector="h1" />
+    </Found>
+    <NotFound>
+        <LayoutView Layout=_layoutType>
+            <p role="alert">Sorry, there's nothing at this address.</p>
+        </LayoutView>
+    </NotFound>
 </Router>
-
-@code {
-	[Inject] private PreferencesState PreferencesState { get; set; } = default!;
-	[Inject] private IJSRuntime JsRuntime { get; set; } = default!;
-
-	private Type _layoutType = typeof(MainLayout);
-
-
-	private static List<string> _cssClassProps = new() 
-	{ 
-		nameof(ThemingExample.Shared.State.PreferencesState.ActiveTheme), 
-		nameof(ThemingExample.Shared.State.PreferencesState.ActiveSkin) 
-	};
-
-	private ValueTask<IJSObjectReference> _module => JsRuntime.InvokeAsync<IJSObjectReference>("import", "/_content/ThemingExample.BlazorUi/js/main-layout-funcs.js");
-	private bool _hasRendered;
-
-	protected override void OnInitialized()
-	{
-		PreferencesState.PropertyChanged += HandlePreferenceChanged;
-	}
-
-	protected override async Task OnAfterRenderAsync(bool firstRender)
-	{
-		if(firstRender)
-		{
-			_hasRendered = true;
-			await UpdateBodyClasses();
-		}
-	}
-
-	private void HandlePreferenceChanged(object? sender, PropertyChangedEventArgs e)
-	{
-		if (_cssClassProps.Contains(e.PropertyName ?? string.Empty))
-		{
-			Task.Run(UpdateBodyClasses);
-			if(e.PropertyName == nameof(PreferencesState.ActiveSkin)) 
-			{
-				Task.Run(ApplySkyLayout);
-			}
-		}
-	}
-
-	private Task ApplySkyLayout()
-	{
-		_layoutType = PreferencesState.ActiveSkin.GetLayoutType();
-		return InvokeAsync(ApplySkyLayout);
-	}
-
-	private async Task UpdateBodyClasses()
-	{
-		if(!_hasRendered) { return; }
-        var module = await _module;
-        await module.InvokeAsync<object>("setThemeClass", PreferencesState.ActiveTheme.ToString());
-        await module.InvokeAsync<object>("setSkinClass", PreferencesState.ActiveSkin.ToString());
-	}
-}
