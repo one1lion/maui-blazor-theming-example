@@ -1,0 +1,631 @@
+,Name,KeyName,KeyType,Value,Type,
+?,MauiWinUIApplication.Current.Resources,,,{Microsoft.UI.Xaml.ResourceDictionary},Microsoft.UI.Xaml.ResourceDictionary,
+?,MergedDictionaries,,,{System.Collections.Generic.IListImpl<Microsoft.UI.Xaml.ResourceDictionary>},System.Collections.Generic.IList<Microsoft.UI.Xaml.ResourceDictionary> {System.Collections.Generic.IListImpl<Microsoft.UI.Xaml.ResourceDictionary>},
+Exp,Value/Key Index,KeyName,KeyType,Value,ValueType,TargetType/Value
+,[0],"""BodyTextBlockFontSize""",object {string},14,object {double},14
+?,[1],"""BaseTextBlockStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TextBlock"" FullName = ""Microsoft.UI.Xaml.Controls.TextBlock""}"
+,[2],"""TitleTextBlockFontSize""",object {string},28,object {double},28
+?,[3],"""TitleTextBlockStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TextBlock"" FullName = ""Microsoft.UI.Xaml.Controls.TextBlock""}"
+?,[4],"""BodyTextBlockStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TextBlock"" FullName = ""Microsoft.UI.Xaml.Controls.TextBlock""}"
+,[5],"""CaptionTextBlockFontSize""",object {string},12,object {double},12
+?,[6],"""CaptionTextBlockStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TextBlock"" FullName = ""Microsoft.UI.Xaml.Controls.TextBlock""}"
+?,[7],"""NavigationViewButtonHolderGridMargin""",object {string},"{0,4,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,4,0,4}"
+,[8],"""NavigationBackButtonHeight""",object {string},36,object {double},36
+,[9],"""NavigationBackButtonWidth""",object {string},40,object {double},40
+?,[10],"""NavigationViewItemButtonMargin""",object {string},"{4,2,4,2}",object {Microsoft.UI.Xaml.Thickness},"{4,2,4,2}"
+,[11],"""PaneToggleButtonHeight""",object {string},36,object {double},36
+?,[12],"""ToolTipBorderPadding""",object {string},"{9,6,9,8}",object {Microsoft.UI.Xaml.Thickness},"{9,6,9,8}"
+,[13],"""ToolTipMaxWidth""",object {string},320,object {double},320
+?,[14],"""DefaultToolTipStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ToolTip"" FullName = ""Microsoft.UI.Xaml.Controls.ToolTip""}"
+,[15],"""ToggleSwitchThemeMinWidth""",object {string},154,object {double},154
+,[16],"""ControlFasterAnimationDuration""",object {string},"""00:00:00.083""",object {string},"""00:00:00.083"""
+,[17],"""ControlFastOutSlowInKeySpline""",object {string},"""0,0,0,1""",object {string},"""0,0,0,1"""
+,[18],"""ControlNormalAnimationDuration""",object {string},"""00:00:00.250""",object {string},"""00:00:00.250"""
+?,[19],"""ToggleSwitchTopHeaderMargin""",object {string},"{0,0,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,4}"
+,[20],"""ToggleSwitchPreContentMargin""",object {string},10,object {double},10
+,[21],"""ToggleSwitchPostContentMargin""",object {string},10,object {double},10
+?,[22],"""DefaultToggleSwitchStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ToggleSwitch"" FullName = ""Microsoft.UI.Xaml.Controls.ToggleSwitch""}"
+?,[23],"""MenuFlyoutItemThemePadding""",object {string},"{11,8,11,9}",object {Microsoft.UI.Xaml.Thickness},"{11,8,11,9}"
+?,[24],"""MenuFlyoutItemMargin""",object {string},"{4,2,4,2}",object {Microsoft.UI.Xaml.Thickness},"{4,2,4,2}"
+?,[25],"""MenuFlyoutItemThemePaddingNarrow""",object {string},"{11,4,11,5}",object {Microsoft.UI.Xaml.Thickness},"{11,4,11,5}"
+?,[26],"""MenuFlyoutItemPlaceholderThemeThickness""",object {string},"{28,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{28,0,0,0}"
+?,[27],"""DefaultToggleMenuFlyoutItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ToggleMenuFlyoutItem"" FullName = ""Microsoft.UI.Xaml.Controls.ToggleMenuFlyoutItem""}"
+,[28],"""TimePickerThemeMinWidth""",object {string},242,object {double},242
+,[29],"""TimePickerThemeMaxWidth""",object {string},456,object {double},456
+?,[30],"""TimePickerTopHeaderMargin""",object {string},"{0,0,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,4}"
+?,[31],"""TimePickerHostPadding""",object {string},"{0,3,0,6}",object {Microsoft.UI.Xaml.Thickness},"{0,3,0,6}"
+?,[32],"""DatePickerFlyoutPresenterDismissMargin""",object {string},"{2,4,4,4}",object {Microsoft.UI.Xaml.Thickness},"{2,4,4,4}"
+?,[33],"""DateTimePickerFlyoutButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ButtonBase"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.ButtonBase""}"
+?,[34],"""DateTimeFlyoutBorderPadding""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+,[35],"""TimePickerFlyoutPresenterHighlightHeight""",object {string},40,object {double},40
+,[36],"""TimePickerFlyoutPresenterAcceptDismissHostGridHeight""",object {string},41,object {double},41
+?,[37],"""TextControlCommandBarContextFlyout""",object {string},{Microsoft.UI.Xaml.Controls.TextCommandBarFlyout},object {Microsoft.UI.Xaml.Controls.TextCommandBarFlyout},{Microsoft.UI.Xaml.Controls.TextCommandBarFlyout}
+?,[38],"""TextControlCommandBarSelectionFlyout""",object {string},{Microsoft.UI.Xaml.Controls.TextCommandBarFlyout},object {Microsoft.UI.Xaml.Controls.TextCommandBarFlyout},{Microsoft.UI.Xaml.Controls.TextCommandBarFlyout}
+,[39],"""RequiredHeaderContent""",object {string},"""*""",object {string},"""*"""
+?,[40],"""TextBoxInnerButtonMargin""",object {string},"{0,4,4,4}",object {Microsoft.UI.Xaml.Thickness},"{0,4,4,4}"
+,[41],"""TextBoxIconFontSize""",object {string},12,object {double},12
+?,[42],"""TextBoxTopHeaderMargin""",object {string},"{0,0,0,8}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,8}"
+?,[43],"""DefaultTextBoxStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TextBox"" FullName = ""Microsoft.UI.Xaml.Controls.TextBox""}"
+?,[44],"""DefaultSplitViewStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""SplitView"" FullName = ""Microsoft.UI.Xaml.Controls.SplitView""}"
+?,[45],"""SliderTrackCornerRadius""",object {string},"{2,2,2,2}",object {Microsoft.UI.Xaml.CornerRadius},"{2,2,2,2}"
+,[46],"""ControlFastAnimationDuration""",object {string},"""00:00:00.167""",object {string},"""00:00:00.167"""
+?,[47],"""TopLeftCornerRadiusDoubleValueConverter""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter}
+?,[48],"""BottomRightCornerRadiusDoubleValueConverter""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter}
+?,[49],"""SliderThumbCornerRadius""",object {string},"{10,10,10,10}",object {Microsoft.UI.Xaml.CornerRadius},"{10,10,10,10}"
+,[50],"""SliderInnerThumbWidth""",object {string},12,object {double},12
+,[51],"""SliderInnerThumbHeight""",object {string},12,object {double},12
+?,[52],"""SliderTopHeaderMargin""",object {string},"{0,0,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,4}"
+,[53],"""SliderHorizontalHeight""",object {string},32,object {double},32
+,[54],"""SliderPreContentMargin""",object {string},15,object {double},15
+,[55],"""SliderPostContentMargin""",object {string},15,object {double},15
+,[56],"""SliderHorizontalThumbHeight""",object {string},18,object {double},18
+,[57],"""SliderHorizontalThumbWidth""",object {string},18,object {double},18
+,[58],"""SliderVerticalWidth""",object {string},32,object {double},32
+,[59],"""SliderVerticalThumbWidth""",object {string},18,object {double},18
+,[60],"""SliderVerticalThumbHeight""",object {string},18,object {double},18
+?,[61],"""DefaultSliderStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Slider"" FullName = ""Microsoft.UI.Xaml.Controls.Slider""}"
+,[62],"""ScrollViewerSeparatorContractDelay""",object {string},"""00:00:02""",object {string},"""00:00:02"""
+,[63],"""ScrollViewerSeparatorContractDuration""",object {string},"""00:00:00.1""",object {string},"""00:00:00.1"""
+,[64],"""ScrollViewerSeparatorContractBeginTime""",object {string},"""00:00:02.00""",object {string},"""00:00:02.00"""
+,[65],"""ScrollViewerSeparatorExpandDuration""",object {string},"""00:00:00.1""",object {string},"""00:00:00.1"""
+,[66],"""ScrollViewerSeparatorExpandBeginTime""",object {string},"""00:00:00.40""",object {string},"""00:00:00.40"""
+?,[67],"""ScrollViewerScrollBarMargin""",object {string},"{1,1,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,1}"
+?,[68],"""DefaultScrollViewerStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ScrollViewer"" FullName = ""Microsoft.UI.Xaml.Controls.ScrollViewer""}"
+?,[69],"""RichEditBoxTopHeaderMargin""",object {string},"{0,0,0,8}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,8}"
+?,[70],"""DefaultRichEditBoxStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""RichEditBox"" FullName = ""Microsoft.UI.Xaml.Controls.RichEditBox""}"
+?,[71],"""DefaultRadioMenuFlyoutItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""RadioMenuFlyoutItem"" FullName = ""Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem""}"
+,[72],"""RadioButtonCheckGlyphSize""",object {string},12,object {double},12
+?,[73],"""DefaultRadioButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""RadioButton"" FullName = ""Microsoft.UI.Xaml.Controls.RadioButton""}"
+?,[74],"""ButtonPadding""",object {string},"{11,5,11,6}",object {Microsoft.UI.Xaml.Thickness},"{11,5,11,6}"
+?,[75],"""DefaultToggleButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ToggleButton"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.ToggleButton""}"
+,[76],"""ScrollBarSize""",object {string},12,object {double},12
+?,[77],"""ScrollBarCornerRadius""",object {string},"{3,3,3,3}",object {Microsoft.UI.Xaml.CornerRadius},"{3,3,3,3}"
+,[78],"""ScrollBarButtonArrowIconFontSize""",object {string},8,object {double},8
+,[79],"""ScrollBarColorChangeDuration""",object {string},"""00:00:00.083""",object {string},"""00:00:00.083"""
+,[80],"""ScrollBarOpacityChangeDuration""",object {string},"""00:00:00.083""",object {string},"""00:00:00.083"""
+,[81],"""ScrollBarContractDuration""",object {string},"""00:00:00.167""",object {string},"""00:00:00.167"""
+,[82],"""ScrollBarVerticalThumbMinWidth""",object {string},8,object {double},8
+,[83],"""ScrollBarThumbOffset""",object {string},2,object {double},2
+,[84],"""ScrollBarHorizontalThumbMinHeight""",object {string},8,object {double},8
+,[85],"""ScrollBarContractBeginTime""",object {string},"""00:00:00.50""",object {string},"""00:00:00.50"""
+,[86],"""ScrollBarExpandBeginTime""",object {string},"""00:00:00.40""",object {string},"""00:00:00.40"""
+,[87],"""ScrollBarExpandDuration""",object {string},"""00:00:00.167""",object {string},"""00:00:00.167"""
+?,[88],"""TopLeftCornerRadiusDoubleValueConverter2x""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter}
+?,[89],"""BottomRightCornerRadiusDoubleValueConverter2x""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter}
+,[90],"""ScrollBarHorizontalThumbMinWidth""",object {string},30,object {double},30
+,[91],"""ScrollBarVerticalThumbMinHeight""",object {string},30,object {double},30
+?,[92],"""ScrollBarHorizontalIncreaseMargin""",object {string},"{0,0,4,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,4,0}"
+,[93],"""ScrollBarButtonArrowScalePressed""",object {string},0.875,object {double},0.875
+?,[94],"""ScrollBarHorizontalDecreaseMargin""",object {string},"{4,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{4,0,0,0}"
+?,[95],"""ScrollBarVerticalIncreaseMargin""",object {string},"{0,0,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,4}"
+?,[96],"""ScrollBarVerticalDecreaseMargin""",object {string},"{0,4,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,4,0,0}"
+,[97],"""ScrollBarThumbStrokeThickness""",object {string},6,object {double},6
+?,[98],"""DefaultScrollBarStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ScrollBar"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.ScrollBar""}"
+?,[99],"""DefaultRepeatButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""RepeatButton"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.RepeatButton""}"
+?,[100],"""DefaultPivotHeaderItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""PivotHeaderItem"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.PivotHeaderItem""}"
+,[101],"""LoopingSelectorUpDownButtonScalePressed""",object {string},0.875,object {double},0.875
+?,[102],"""DateTimePickerFlyoutLoopingSelectorNavigationButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ButtonBase"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.ButtonBase""}"
+?,[103],"""LoopingSelectorUpDownButtonMargin""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+,[104],"""LoopingSelectorUpDownButtonHeight""",object {string},34,object {double},34
+?,[105],"""DefaultLoopingSelectorStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""LoopingSelector"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector""}"
+?,[106],"""LoopingSelectorItemMargin""",object {string},"{4,2,4,2}",object {Microsoft.UI.Xaml.Thickness},"{4,2,4,2}"
+?,[107],"""CommandBarFlyoutCommandBarOverflowPresenterStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CommandBarOverflowPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.CommandBarOverflowPresenter""}"
+?,[108],"""CommandBarFlyoutAppBarButtonInnerBorderMargin""",object {string},"{2,2,2,2}",object {Microsoft.UI.Xaml.Thickness},"{2,2,2,2}"
+?,[109],"""CommandBarFlyoutAppBarButtonStyleBase""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarButton""}"
+?,[110],"""CommandBarFlyoutAppBarButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarButton""}"
+?,[111],"""CommandBarFlyoutAppBarToggleButtonStyleBase""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarToggleButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarToggleButton""}"
+?,[112],"""CommandBarFlyoutAppBarToggleButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},{Microsoft.UI.Xaml.Style}
+,[113],"""ControlFastAnimationAfterDuration""",object {string},"""00:00:00.168""",object {string},"""00:00:00.168"""
+?,[114],"""BottomCornerRadiusFilterConverter""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter}
+?,[115],"""TopCornerRadiusFilterConverter""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter}
+?,[116],"""AppBarEllipsisButtonInnerBorderMargin""",object {string},"{2,6,6,6}",object {Microsoft.UI.Xaml.Thickness},"{2,6,6,6}"
+?,[117],"""EllipsisButton""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+?,[118],"""CommandBarFlyoutAppBarEllipsisButtonInnerBorderMargin""",object {string},"{2,2,6,2}",object {Microsoft.UI.Xaml.Thickness},"{2,2,6,2}"
+?,[119],"""CommandBarFlyoutEllipsisButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+?,[120],"""DefaultCommandBarFlyoutCommandBarOSStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CommandBarFlyoutCommandBar"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBar""}"
+?,[121],"""DefaultPivotStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Pivot"" FullName = ""Microsoft.UI.Xaml.Controls.Pivot""}"
+?,[122],"""DefaultPivotItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""PivotItem"" FullName = ""Microsoft.UI.Xaml.Controls.PivotItem""}"
+,[123],"""PasswordBoxIconFontSize""",object {string},12,object {double},12
+?,[124],"""PasswordBoxTopHeaderMargin""",object {string},"{0,0,0,8}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,8}"
+?,[125],"""DefaultPasswordBoxStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""PasswordBox"" FullName = ""Microsoft.UI.Xaml.Controls.PasswordBox""}"
+?,[126],"""MenuFlyoutItemDoublePlaceholderThemeThickness""",object {string},"{56,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{56,0,0,0}"
+?,[127],"""MenuFlyoutItemChevronMargin""",object {string},"{24,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{24,0,0,0}"
+?,[128],"""DefaultMenuFlyoutSubItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""MenuFlyoutSubItem"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem""}"
+?,[129],"""MenuFlyoutSeparatorThemePadding""",object {string},"{-4,1,-4,1}",object {Microsoft.UI.Xaml.Thickness},"{-4,1,-4,1}"
+,[130],"""MenuFlyoutSeparatorHeight""",object {string},1,object {double},1
+?,[131],"""MenuFlyoutPresenterThemePadding""",object {string},"{0,2,0,2}",object {Microsoft.UI.Xaml.Thickness},"{0,2,0,2}"
+,[132],"""MenuFlyoutThemeMinHeight""",object {string},32,object {double},32
+?,[133],"""DefaultMenuFlyoutPresenterStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""MenuFlyoutPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter""}"
+?,[134],"""DefaultMenuFlyoutItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""MenuFlyoutItem"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutItem""}"
+?,[135],"""AppBarButtonInnerBorderCompactMargin""",object {string},"{2,6,2,22}",object {Microsoft.UI.Xaml.Thickness},"{2,6,2,22}"
+?,[136],"""AppBarButtonTextLabelOnRightMargin""",object {string},"{8,16,12,10}",object {Microsoft.UI.Xaml.Thickness},"{8,16,12,10}"
+?,[137],"""AppBarButtonInnerBorderOverflowMargin""",object {string},"{4,0,4,0}",object {Microsoft.UI.Xaml.Thickness},"{4,0,4,0}"
+?,[138],"""AppBarButtonContentViewboxMargin""",object {string},"{12,16,0,10}",object {Microsoft.UI.Xaml.Thickness},"{12,16,0,10}"
+,[139],"""AppBarThemeCompactHeight""",object {string},48,object {double},48
+?,[140],"""AppBarButtonOverflowTextTouchMargin""",object {string},"{0,9,0,12}",object {Microsoft.UI.Xaml.Thickness},"{0,9,0,12}"
+?,[141],"""AppBarButtonInnerBorderMargin""",object {string},"{2,6,2,6}",object {Microsoft.UI.Xaml.Thickness},"{2,6,2,6}"
+,[142],"""AppBarThemeMinHeight""",object {string},64,object {double},64
+,[143],"""AppBarButtonContentHeight""",object {string},16,object {double},16
+?,[144],"""AppBarButtonContentViewboxCollapsedMargin""",object {string},"{0,16,0,2}",object {Microsoft.UI.Xaml.Thickness},"{0,16,0,2}"
+?,[145],"""AppBarButtonTextLabelMargin""",object {string},"{2,0,2,8}",object {Microsoft.UI.Xaml.Thickness},"{2,0,2,8}"
+?,[146],"""AppBarButtonOverflowTextLabelPadding""",object {string},"{0,5,0,8}",object {Microsoft.UI.Xaml.Thickness},"{0,5,0,8}"
+?,[147],"""DefaultAppBarButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarButton""}"
+?,[148],"""AppBarToggleButtonBorderThemeThickness""",object {string},"{1,1,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,1}"
+?,[149],"""AppBarToggleButtonTextLabelOnRightMargin""",object {string},"{8,16,12,10}",object {Microsoft.UI.Xaml.Thickness},"{8,16,12,10}"
+?,[150],"""AppBarToggleButtonOverflowTextTouchMargin""",object {string},"{0,9,0,12}",object {Microsoft.UI.Xaml.Thickness},"{0,9,0,12}"
+?,[151],"""AppBarToggleButtonOverflowCheckTouchMargin""",object {string},"{12,10,12,10}",object {Microsoft.UI.Xaml.Thickness},"{12,10,12,10}"
+?,[152],"""AppBarToggleButtonOverflowCheckMargin""",object {string},"{12,4,12,4}",object {Microsoft.UI.Xaml.Thickness},"{12,4,12,4}"
+?,[153],"""AppBarToggleButtonTextLabelMargin""",object {string},"{2,0,2,8}",object {Microsoft.UI.Xaml.Thickness},"{2,0,2,8}"
+?,[154],"""AppBarToggleButtonOverflowTextLabelPadding""",object {string},"{0,5,0,8}",object {Microsoft.UI.Xaml.Thickness},"{0,5,0,8}"
+?,[155],"""DefaultAppBarToggleButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarToggleButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarToggleButton""}"
+?,[156],"""CommandBarOverflowPresenterMargin""",object {string},"{0,4,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,4,0,4}"
+?,[157],"""DefaultCommandBarOverflowPresenterStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CommandBarOverflowPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.CommandBarOverflowPresenter""}"
+?,[158],"""LeftCornerRadiusFilterConverter""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter}
+?,[159],"""RightCornerRadiusFilterConverter""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter}
+?,[160],"""SplitButtonCommandBarStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""SplitButton"" FullName = ""Microsoft.UI.Xaml.Controls.SplitButton""}"
+?,[161],"""AppBarButtonOverflowStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarButton""}"
+?,[162],"""AppBarToggleButtonOverflowStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarToggleButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarToggleButton""}"
+,[163],"""AppBarMoreButtonColumnMinWidth""",object {string},6,object {double},6
+?,[164],"""CommandBarMoreButtonMargin""",object {string},"{14,19,14,0}",object {Microsoft.UI.Xaml.Thickness},"{14,19,14,0}"
+?,[165],"""DefaultCommandBarStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CommandBar"" FullName = ""Microsoft.UI.Xaml.Controls.CommandBar""}"
+?,[166],"""FlyoutContentPadding""",object {string},"{16,15,16,17}",object {Microsoft.UI.Xaml.Thickness},"{16,15,16,17}"
+?,[167],"""DefaultFlyoutPresenterStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""FlyoutPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.FlyoutPresenter""}"
+?,[168],"""DefaultMediaTransportControlsStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},null
+?,[169],"""DefaultListViewItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ListViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.ListViewItem""}"
+?,[170],"""DefaultListBoxStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ListBox"" FullName = ""Microsoft.UI.Xaml.Controls.ListBox""}"
+?,[171],"""ListBoxItemPadding""",object {string},"{12,9,12,12}",object {Microsoft.UI.Xaml.Thickness},"{12,9,12,12}"
+?,[172],"""DefaultListBoxItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ListBoxItem"" FullName = ""Microsoft.UI.Xaml.Controls.ListBoxItem""}"
+?,[173],"""DefaultHyperlinkButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""HyperlinkButton"" FullName = ""Microsoft.UI.Xaml.Controls.HyperlinkButton""}"
+?,[174],"""DefaultGridViewItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""GridViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.GridViewItem""}"
+,[175],"""FlipViewButtonScalePressed""",object {string},0.875,object {double},0.875
+,[176],"""FlipViewButtonFontSize""",object {string},8,object {double},8
+?,[177],"""DefaultFlipViewStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""FlipView"" FullName = ""Microsoft.UI.Xaml.Controls.FlipView""}"
+?,[178],"""DefaultFlipViewItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""FlipViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.FlipViewItem""}"
+,[179],"""DatePickerThemeMinWidth""",object {string},296,object {double},296
+,[180],"""DatePickerThemeMaxWidth""",object {string},456,object {double},456
+?,[181],"""DatePickerTopHeaderMargin""",object {string},"{0,0,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,4}"
+?,[182],"""DatePickerHostPadding""",object {string},"{0,3,0,6}",object {Microsoft.UI.Xaml.Thickness},"{0,3,0,6}"
+?,[183],"""DatePickerHostMonthPadding""",object {string},"{9,3,0,6}",object {Microsoft.UI.Xaml.Thickness},"{9,3,0,6}"
+?,[184],"""DefaultDatePickerStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""DatePicker"" FullName = ""Microsoft.UI.Xaml.Controls.DatePicker""}"
+?,[185],"""DatePickerFlyoutPresenterAcceptMargin""",object {string},"{4,4,2,4}",object {Microsoft.UI.Xaml.Thickness},"{4,4,2,4}"
+,[186],"""DatePickerFlyoutPresenterHighlightHeight""",object {string},40,object {double},40
+,[187],"""DatePickerFlyoutPresenterAcceptDismissHostGridHeight""",object {string},41,object {double},41
+?,[188],"""DefaultDatePickerFlyoutPresenterStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""DatePickerFlyoutPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.DatePickerFlyoutPresenter""}"
+?,[189],"""DefaultButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+?,[190],"""ContentDialogButtonSpacing""",object {string},{8},object {Microsoft.UI.Xaml.GridLength},{8}
+?,[191],"""AccentButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+?,[192],"""ContentDialogPadding""",object {string},"{24,24,24,24}",object {Microsoft.UI.Xaml.Thickness},"{24,24,24,24}"
+?,[193],"""ContentDialogSeparatorThickness""",object {string},"{0,0,0,1}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,1}"
+?,[194],"""ContentDialogTitleMargin""",object {string},"{0,0,0,12}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,12}"
+?,[195],"""DefaultContentDialogStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ContentDialog"" FullName = ""Microsoft.UI.Xaml.Controls.ContentDialog""}"
+?,[196],"""ComboBoxPadding""",object {string},"{12,5,0,7}",object {Microsoft.UI.Xaml.Thickness},"{12,5,0,7}"
+?,[197],"""ComboBoxBorderThemeThickness""",object {string},"{1,1,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,1}"
+?,[198],"""ComboBoxTextBoxStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TextBox"" FullName = ""Microsoft.UI.Xaml.Controls.TextBox""}"
+?,[199],"""ComboBoxBackgroundBorderThicknessFocused""",object {string},"{2,2,2,2}",object {Microsoft.UI.Xaml.Thickness},"{2,2,2,2}"
+?,[200],"""ComboBoxHiglightBorderCornerRadius""",object {string},"{7,7,7,7}",object {Microsoft.UI.Xaml.CornerRadius},"{7,7,7,7}"
+,[201],"""ComboBoxItemPillHeight""",object {string},16,object {double},16
+,[202],"""ComboBoxItemPillWidth""",object {string},3,object {double},3
+?,[203],"""ComboBoxItemPill""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Rectangle"" FullName = ""Microsoft.UI.Xaml.Shapes.Rectangle""}"
+?,[204],"""ComboBoxDropDownButtonBackgroundCornerRadius""",object {string},"{4,4,4,4}",object {Microsoft.UI.Xaml.CornerRadius},"{4,4,4,4}"
+?,[205],"""ComboBoxHeaderThemeFontWeight""",object {string},{Windows.UI.Text.FontWeight},object {Windows.UI.Text.FontWeight},{Windows.UI.Text.FontWeight}
+?,[206],"""ComboBoxTopHeaderMargin""",object {string},"{0,0,0,8}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,8}"
+,[207],"""ComboBoxThemeMinWidth""",object {string},64,object {double},64
+?,[208],"""ComboBoxEditableTextPadding""",object {string},"{11,5,38,6}",object {Microsoft.UI.Xaml.Thickness},"{11,5,38,6}"
+,[209],"""ComboBoxMinHeight""",object {string},32,object {double},32
+?,[210],"""ComboBoxDropdownBorderThickness""",object {string},"{1,1,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,1}"
+?,[211],"""ComboBoxDropdownContentMargin""",object {string},"{0,4,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,4,0,4}"
+?,[212],"""DefaultComboBoxStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ComboBox"" FullName = ""Microsoft.UI.Xaml.Controls.ComboBox""}"
+?,[213],"""ComboBoxItemThemePadding""",object {string},"{11,5,11,7}",object {Microsoft.UI.Xaml.Thickness},"{11,5,11,7}"
+?,[214],"""ComboBoxItemCornerRadius""",object {string},"{3,3,3,3}",object {Microsoft.UI.Xaml.CornerRadius},"{3,3,3,3}"
+,[215],"""ComboBoxItemScaleAnimationDuration""",object {string},"""00:00:00.167""",object {string},"""00:00:00.167"""
+,[216],"""ComboBoxItemPillMinScale""",object {string},0.625,object {double},0.625
+?,[217],"""ComboBoxItemThemeTouchPadding""",object {string},"{11,11,11,13}",object {Microsoft.UI.Xaml.Thickness},"{11,11,11,13}"
+?,[218],"""ComboBoxItemThemeGameControllerPadding""",object {string},"{11,11,11,13}",object {Microsoft.UI.Xaml.Thickness},"{11,11,11,13}"
+?,[219],"""DefaultComboBoxItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ComboBoxItem"" FullName = ""Microsoft.UI.Xaml.Controls.ComboBoxItem""}"
+?,[220],"""CheckBoxPadding""",object {string},"{8,5,0,0}",object {Microsoft.UI.Xaml.Thickness},"{8,5,0,0}"
+,[221],"""CheckBoxMinWidth""",object {string},120,object {double},120
+,[222],"""CheckBoxHeight""",object {string},32,object {double},32
+?,[223],"""CheckBoxFocusVisualMargin""",object {string},"{-7,-3,-7,-3}",object {Microsoft.UI.Xaml.Thickness},"{-7,-3,-7,-3}"
+,[224],"""CheckBoxIndeterminateGlyph""",object {string},"""?""",object {string},"""?"""
+,[225],"""CheckBoxSize""",object {string},20,object {double},20
+,[226],"""CheckBoxBorderThickness""",object {string},1,object {double},1
+,[227],"""CheckBoxCheckedGlyph""",object {string},"""?""",object {string},"""?"""
+,[228],"""CheckBoxGlyphSize""",object {string},12,object {double},12
+?,[229],"""DefaultCheckBoxStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CheckBox"" FullName = ""Microsoft.UI.Xaml.Controls.CheckBox""}"
+?,[230],"""DefaultCalendarViewStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CalendarView"" FullName = ""Microsoft.UI.Xaml.Controls.CalendarView""}"
+?,[231],"""CalendarDatePickerTopHeaderMargin""",object {string},"{0,0,0,8}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,8}"
+?,[232],"""DefaultCalendarDatePicker""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CalendarDatePicker"" FullName = ""Microsoft.UI.Xaml.Controls.CalendarDatePicker""}"
+?,[233],"""AutoSuggestBoxDeleteButtonMargin""",object {string},"{0,4,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,4,0,4}"
+?,[234],"""AutoSuggestBoxInnerButtonMargin""",object {string},"{1,3,1,3}",object {Microsoft.UI.Xaml.Thickness},"{1,3,1,3}"
+,[235],"""AutoSuggestBoxRightButtonMargin""",object {string},4,object {double},4
+?,[236],"""AutoSuggestBoxTopHeaderMargin""",object {string},"{0,0,0,8}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,8}"
+?,[237],"""AutoSuggestBoxTextBoxStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TextBox"" FullName = ""Microsoft.UI.Xaml.Controls.TextBox""}"
+?,[238],"""DefaultAutoSuggestBoxStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AutoSuggestBox"" FullName = ""Microsoft.UI.Xaml.Controls.AutoSuggestBox""}"
+?,[239],"""AppBarSeparatorMargin""",object {string},"{2,8,2,8}",object {Microsoft.UI.Xaml.Thickness},"{2,8,2,8}"
+,[240],"""AppBarOverflowSeparatorHeight""",object {string},1,object {double},1
+?,[241],"""AppBarOverflowSeparatorMargin""",object {string},"{0,4,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,4,0,4}"
+,[242],"""AppBarSeparatorCornerRadius""",object {string},0.5,object {double},0.5
+,[243],"""AppBarSeparatorWidth""",object {string},1,object {double},1
+?,[244],"""DefaultAppBarSeparatorStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarSeparator"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarSeparator""}"
+,[245],"""TitleLargeTextBlockFontSize""",object {string},40,object {double},40
+,[246],"""SubtitleTextBlockFontSize""",object {string},20,object {double},20
+,[247],"""SplitButtonPrimaryButtonSize""",object {string},35,object {double},35
+,[248],"""SplitButtonSecondaryButtonSize""",object {string},35,object {double},35
+?,[249],"""ButtonRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+?,[250],"""PipsPagerButtonBorderThickness""",object {string},"{1,1,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,1}"
+,[251],"""PipsPagerNormalGlyph""",object {string},"""?""",object {string},"""?"""
+,[252],"""PipsPagerNormalGlyphFontSize""",object {string},"""4""",object {string},"""4"""
+,[253],"""PipsPagerHorizontalOrientationButtonWidth""",object {string},12,object {double},12
+,[254],"""PipsPagerHorizontalOrientationButtonHeight""",object {string},20,object {double},20
+,[255],"""PipsPagerSelectedGlyphFontSize""",object {string},"""6""",object {string},"""6"""
+,[256],"""PipsPagerVerticalOrientationButtonWidth""",object {string},20,object {double},20
+,[257],"""PipsPagerVerticalOrientationButtonHeight""",object {string},12,object {double},12
+?,[258],"""PipsPagerButtonBaseStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+,[259],"""PipsPagerSelectedGlyph""",object {string},"""?""",object {string},"""?"""
+?,[260],"""PipsPagerNavigationButtonBorderThickness""",object {string},"{1,1,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,1}"
+,[261],"""PipsPagerNavigationButtonFontSize""",object {string},8,object {double},8
+,[262],"""PipsPagerNavigationButtonWidth""",object {string},20,object {double},20
+,[263],"""PipsPagerNavigationButtonHeight""",object {string},20,object {double},20
+,[264],"""PipsPagerNavigationButtonScalePressed""",object {string},0.875,object {double},0.875
+?,[265],"""PipsPagerNavigationButtonBaseStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+,[266],"""PipsPagerPreviousPageButtonGlyph""",object {string},"""?""",object {string},"""?"""
+,[267],"""PipsPagerNextPageButtonGlyph""",object {string},"""?""",object {string},"""?"""
+,[268],"""PaneToggleButtonWidth""",object {string},40,object {double},40
+?,[269],"""NavigationViewToggleBorderThickness""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+,[270],"""PagerControlNumberPanelButtonWidth""",object {string},32,object {double},32
+?,[271],"""NavigationViewHeaderMargin""",object {string},"{56,44,0,0}",object {Microsoft.UI.Xaml.Thickness},"{56,44,0,0}"
+?,[272],"""NavigationViewItemBorderThickness""",object {string},"{1,1,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,1}"
+,[273],"""TopNavigationViewOverflowButtonHeight""",object {string},40,object {double},40
+,[274],"""TopNavigationViewOverflowButtonWidth""",object {string},40,object {double},40
+,[275],"""TopNavigationViewSettingsButtonHeight""",object {string},40,object {double},40
+,[276],"""NavigationViewItemExpandedGlyph""",object {string},"""?""",object {string},"""?"""
+?,[277],"""TopNavigationViewItemIconOnlyExpandChevronMargin""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+?,[278],"""TopNavigationViewItemContentOnlyContentPresenterMargin""",object {string},"{12,0,12,0}",object {Microsoft.UI.Xaml.Thickness},"{12,0,12,0}"
+?,[279],"""TopNavigationViewItemContentOnlyExpandChevronMargin""",object {string},"{-12,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{-12,0,0,0}"
+?,[280],"""TopNavigationViewItemContentPresenterMargin""",object {string},"{8,-1,12,-1}",object {Microsoft.UI.Xaml.Thickness},"{8,-1,12,-1}"
+?,[281],"""TopNavigationViewItemExpandChevronMargin""",object {string},"{-16,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{-16,0,0,0}"
+,[282],"""NavigationViewItemExpandedGlyphFontSize""",object {string},8,object {double},8
+?,[283],"""TopNavigationViewItemOnOverflowNoIconContentPresenterMargin""",object {string},"{16,0,20,0}",object {Microsoft.UI.Xaml.Thickness},"{16,0,20,0}"
+?,[284],"""TopNavigationViewItemOnOverflowContentPresenterMargin""",object {string},"{12,0,20,0}",object {Microsoft.UI.Xaml.Thickness},"{12,0,20,0}"
+?,[285],"""TopNavigationViewItemOnOverflowExpandChevronMargin""",object {string},"{-4,0,6,0}",object {Microsoft.UI.Xaml.Thickness},"{-4,0,6,0}"
+?,[286],"""TopNavigationViewItemOnOverflowExpandChevronPadding""",object {string},"{12,0,12,0}",object {Microsoft.UI.Xaml.Thickness},"{12,0,12,0}"
+,[287],"""NavigationViewItemOnLeftMinHeight""",object {string},36,object {double},36
+?,[288],"""NavigationViewCompactItemContentPresenterMargin""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+,[289],"""NavigationViewSelectionIndicatorWidth""",object {string},3,object {double},3
+,[290],"""NavigationViewSelectionIndicatorHeight""",object {string},16,object {double},16
+,[291],"""NavigationViewSelectionIndicatorRadius""",object {string},2,object {double},2
+,[292],"""NavigationViewItemOnLeftIconBoxHeight""",object {string},16,object {double},16
+?,[293],"""NavigationViewItemOnLeftIconBoxMargin""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+?,[294],"""NavigationViewItemContentPresenterMargin""",object {string},"{4,-1,20,-1}",object {Microsoft.UI.Xaml.Thickness},"{4,-1,20,-1}"
+?,[295],"""NavigationViewItemExpandChevronMargin""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+,[296],"""NavigationViewCompactPaneLength""",object {string},48,object {double},48
+,[297],"""InfoBarCloseButtonSize""",object {string},38,object {double},38
+?,[298],"""ExpanderHeaderPadding""",object {string},"{16,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{16,0,0,0}"
+,[299],"""ExpanderChevronGlyphSize""",object {string},12,object {double},12
+,[300],"""ExpanderChevronDownGlyph""",object {string},"""?""",object {string},"""?"""
+,[301],"""ExpanderChevronButtonSize""",object {string},32,object {double},32
+?,[302],"""ExpanderChevronMargin""",object {string},"{20,0,8,0}",object {Microsoft.UI.Xaml.Thickness},"{20,0,8,0}"
+?,[303],"""ExpanderHeaderDownStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ToggleButton"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.ToggleButton""}"
+,[304],"""ExpanderChevronUpGlyph""",object {string},"""?""",object {string},"""?"""
+,[305],"""DisplayTextBlockFontSize""",object {string},68,object {double},68
+?,[306],"""CommandBarFlyoutOverflowShadow""",object {string},{Microsoft.UI.Xaml.Media.ThemeShadow},object {Microsoft.UI.Xaml.Media.ThemeShadow},{Microsoft.UI.Xaml.Media.ThemeShadow}
+?,[307],"""AppBarButtonContentViewboxCompactMargin""",object {string},"{0,12,0,12}",object {Microsoft.UI.Xaml.Thickness},"{0,12,0,12}"
+?,[308],"""AppBarButtonRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarButton""}"
+?,[309],"""AppBarToggleButtonRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarToggleButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarToggleButton""}"
+?,[310],"""EllipsisButtonRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+,[311],"""CalendarViewNavigationButtonScalePressed""",object {string},0.875,object {double},0.875
+,[312],"""BodyStrongTextBlockFontSize""",object {string},14,object {double},14
+,[313],"""TeachingTipAlternateCloseButtonSize""",object {string},40,object {double},40
+,[314],"""TeachingTipAlternateCloseButtonGlyphSize""",object {string},16,object {double},16
+?,[315],"{Name = ""ToolTip"" FullName = ""Microsoft.UI.Xaml.Controls.ToolTip""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ToolTip"" FullName = ""Microsoft.UI.Xaml.Controls.ToolTip""}"
+?,[316],"{Name = ""ToggleSwitch"" FullName = ""Microsoft.UI.Xaml.Controls.ToggleSwitch""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ToggleSwitch"" FullName = ""Microsoft.UI.Xaml.Controls.ToggleSwitch""}"
+?,[317],"{Name = ""ToggleMenuFlyoutItem"" FullName = ""Microsoft.UI.Xaml.Controls.ToggleMenuFlyoutItem""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ToggleMenuFlyoutItem"" FullName = ""Microsoft.UI.Xaml.Controls.ToggleMenuFlyoutItem""}"
+?,[318],"{Name = ""TimePicker"" FullName = ""Microsoft.UI.Xaml.Controls.TimePicker""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TimePicker"" FullName = ""Microsoft.UI.Xaml.Controls.TimePicker""}"
+?,[319],"{Name = ""TimePickerFlyoutPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TimePickerFlyoutPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter""}"
+?,[320],"{Name = ""TextBox"" FullName = ""Microsoft.UI.Xaml.Controls.TextBox""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TextBox"" FullName = ""Microsoft.UI.Xaml.Controls.TextBox""}"
+?,[321],"{Name = ""SplitView"" FullName = ""Microsoft.UI.Xaml.Controls.SplitView""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""SplitView"" FullName = ""Microsoft.UI.Xaml.Controls.SplitView""}"
+?,[322],"{Name = ""Slider"" FullName = ""Microsoft.UI.Xaml.Controls.Slider""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Slider"" FullName = ""Microsoft.UI.Xaml.Controls.Slider""}"
+?,[323],"{Name = ""ScrollViewer"" FullName = ""Microsoft.UI.Xaml.Controls.ScrollViewer""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ScrollViewer"" FullName = ""Microsoft.UI.Xaml.Controls.ScrollViewer""}"
+?,[324],"{Name = ""RichEditBox"" FullName = ""Microsoft.UI.Xaml.Controls.RichEditBox""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""RichEditBox"" FullName = ""Microsoft.UI.Xaml.Controls.RichEditBox""}"
+?,[325],"{Name = ""RadioMenuFlyoutItem"" FullName = ""Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""RadioMenuFlyoutItem"" FullName = ""Microsoft.UI.Xaml.Controls.RadioMenuFlyoutItem""}"
+?,[326],"{Name = ""RadioButton"" FullName = ""Microsoft.UI.Xaml.Controls.RadioButton""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""RadioButton"" FullName = ""Microsoft.UI.Xaml.Controls.RadioButton""}"
+?,[327],"{Name = ""ProgressBar"" FullName = ""Microsoft.UI.Xaml.Controls.ProgressBar""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ProgressBar"" FullName = ""Microsoft.UI.Xaml.Controls.ProgressBar""}"
+?,[328],"{Name = ""ToggleButton"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.ToggleButton""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ToggleButton"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.ToggleButton""}"
+?,[329],"{Name = ""ScrollBar"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.ScrollBar""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ScrollBar"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.ScrollBar""}"
+?,[330],"{Name = ""RepeatButton"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.RepeatButton""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""RepeatButton"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.RepeatButton""}"
+?,[331],"{Name = ""PivotHeaderItem"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.PivotHeaderItem""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""PivotHeaderItem"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.PivotHeaderItem""}"
+?,[332],"{Name = ""LoopingSelector"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""LoopingSelector"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.LoopingSelector""}"
+?,[333],"{Name = ""LoopingSelectorItem"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorItem""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""LoopingSelectorItem"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorItem""}"
+?,[334],"{Name = ""CommandBarFlyoutCommandBar"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBar""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CommandBarFlyoutCommandBar"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBar""}"
+?,[335],"{Name = ""Pivot"" FullName = ""Microsoft.UI.Xaml.Controls.Pivot""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Pivot"" FullName = ""Microsoft.UI.Xaml.Controls.Pivot""}"
+?,[336],"{Name = ""PivotItem"" FullName = ""Microsoft.UI.Xaml.Controls.PivotItem""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""PivotItem"" FullName = ""Microsoft.UI.Xaml.Controls.PivotItem""}"
+?,[337],"{Name = ""PasswordBox"" FullName = ""Microsoft.UI.Xaml.Controls.PasswordBox""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""PasswordBox"" FullName = ""Microsoft.UI.Xaml.Controls.PasswordBox""}"
+?,[338],"{Name = ""MenuFlyoutSubItem"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""MenuFlyoutSubItem"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem""}"
+?,[339],"{Name = ""MenuFlyoutSeparator"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutSeparator""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""MenuFlyoutSeparator"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutSeparator""}"
+?,[340],"{Name = ""MenuFlyoutPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""MenuFlyoutPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter""}"
+?,[341],"{Name = ""MenuFlyoutItem"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutItem""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""MenuFlyoutItem"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutItem""}"
+?,[342],null,object,{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},null
+?,[343],"{Name = ""ListViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.ListViewItem""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ListViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.ListViewItem""}"
+?,[344],"{Name = ""ListBox"" FullName = ""Microsoft.UI.Xaml.Controls.ListBox""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ListBox"" FullName = ""Microsoft.UI.Xaml.Controls.ListBox""}"
+?,[345],"{Name = ""ListBoxItem"" FullName = ""Microsoft.UI.Xaml.Controls.ListBoxItem""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ListBoxItem"" FullName = ""Microsoft.UI.Xaml.Controls.ListBoxItem""}"
+?,[346],"{Name = ""HyperlinkButton"" FullName = ""Microsoft.UI.Xaml.Controls.HyperlinkButton""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""HyperlinkButton"" FullName = ""Microsoft.UI.Xaml.Controls.HyperlinkButton""}"
+?,[347],"{Name = ""GridViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.GridViewItem""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""GridViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.GridViewItem""}"
+?,[348],"{Name = ""FlyoutPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.FlyoutPresenter""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""FlyoutPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.FlyoutPresenter""}"
+?,[349],"{Name = ""FlipView"" FullName = ""Microsoft.UI.Xaml.Controls.FlipView""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""FlipView"" FullName = ""Microsoft.UI.Xaml.Controls.FlipView""}"
+?,[350],"{Name = ""FlipViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.FlipViewItem""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""FlipViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.FlipViewItem""}"
+?,[351],"{Name = ""DatePicker"" FullName = ""Microsoft.UI.Xaml.Controls.DatePicker""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""DatePicker"" FullName = ""Microsoft.UI.Xaml.Controls.DatePicker""}"
+?,[352],"{Name = ""DatePickerFlyoutPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.DatePickerFlyoutPresenter""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""DatePickerFlyoutPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.DatePickerFlyoutPresenter""}"
+?,[353],"{Name = ""ContentDialog"" FullName = ""Microsoft.UI.Xaml.Controls.ContentDialog""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ContentDialog"" FullName = ""Microsoft.UI.Xaml.Controls.ContentDialog""}"
+?,[354],"{Name = ""CommandBar"" FullName = ""Microsoft.UI.Xaml.Controls.CommandBar""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CommandBar"" FullName = ""Microsoft.UI.Xaml.Controls.CommandBar""}"
+?,[355],"{Name = ""CommandBarOverflowPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.CommandBarOverflowPresenter""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CommandBarOverflowPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.CommandBarOverflowPresenter""}"
+?,[356],"{Name = ""ComboBox"" FullName = ""Microsoft.UI.Xaml.Controls.ComboBox""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ComboBox"" FullName = ""Microsoft.UI.Xaml.Controls.ComboBox""}"
+?,[357],"{Name = ""ComboBoxItem"" FullName = ""Microsoft.UI.Xaml.Controls.ComboBoxItem""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ComboBoxItem"" FullName = ""Microsoft.UI.Xaml.Controls.ComboBoxItem""}"
+?,[358],"{Name = ""CheckBox"" FullName = ""Microsoft.UI.Xaml.Controls.CheckBox""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CheckBox"" FullName = ""Microsoft.UI.Xaml.Controls.CheckBox""}"
+?,[359],"{Name = ""CalendarView"" FullName = ""Microsoft.UI.Xaml.Controls.CalendarView""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CalendarView"" FullName = ""Microsoft.UI.Xaml.Controls.CalendarView""}"
+?,[360],"{Name = ""CalendarViewDayItem"" FullName = ""Microsoft.UI.Xaml.Controls.CalendarViewDayItem""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CalendarViewDayItem"" FullName = ""Microsoft.UI.Xaml.Controls.CalendarViewDayItem""}"
+?,[361],"{Name = ""CalendarDatePicker"" FullName = ""Microsoft.UI.Xaml.Controls.CalendarDatePicker""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CalendarDatePicker"" FullName = ""Microsoft.UI.Xaml.Controls.CalendarDatePicker""}"
+?,[362],"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+?,[363],"{Name = ""AutoSuggestBox"" FullName = ""Microsoft.UI.Xaml.Controls.AutoSuggestBox""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AutoSuggestBox"" FullName = ""Microsoft.UI.Xaml.Controls.AutoSuggestBox""}"
+?,[364],"{Name = ""AppBarToggleButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarToggleButton""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarToggleButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarToggleButton""}"
+?,[365],"{Name = ""AppBarSeparator"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarSeparator""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarSeparator"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarSeparator""}"
+?,[366],"{Name = ""AppBarButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarButton""}",object {System.RuntimeType},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarButton""}"
+?,[367],"""TopThicknessFilterConverter""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter}
+?,[368],"""TopNavigationViewTopNavGridMargin""",object {string},"{4,0,4,0}",object {Microsoft.UI.Xaml.Thickness},"{4,0,4,0}"
+,[369],"""TopNavigationViewSettingsButtonWidth""",object {string},40,object {double},40
+,[370],"""TopNavigationViewPaneCustomContentMinWidth""",object {string},48,object {double},48
+?,[371],"""TopNavigationViewOverflowMenuPadding""",object {string},"{0,8,0,8}",object {Microsoft.UI.Xaml.Thickness},"{0,8,0,8}"
+?,[372],"""TopNavigationViewOverflowButtonMargin""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+,[373],"""TopNavigationViewItemSeparatorWidth""",object {string},1,object {double},1
+?,[374],"""TopNavigationViewItemSeparatorMargin""",object {string},"{3,0,4,0}",object {Microsoft.UI.Xaml.Thickness},"{3,0,4,0}"
+?,[375],"""TopNavigationViewItemMargin""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+?,[376],"""TopNavigationViewItemInnerHeaderMargin""",object {string},"{12,0,12,0}",object {Microsoft.UI.Xaml.Thickness},"{12,0,12,0}"
+?,[377],"""TopNavigationViewContentMargin""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+?,[378],"""TopNavigationViewContentGridCornerRadius""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.CornerRadius},"{0,0,0,0}"
+?,[379],"""TopNavigationViewContentGridBorderThickness""",object {string},"{0,1,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,1,0,0}"
+?,[380],"""TopNavigationViewAutoSuggestBoxMargin""",object {string},"{4,0,4,0}",object {Microsoft.UI.Xaml.Thickness},"{4,0,4,0}"
+?,[381],"""TopLeftCornerRadiusDoubleValueConverter8x""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter}
+?,[382],"""ToggleMenuFlyoutItemRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ToggleMenuFlyoutItem"" FullName = ""Microsoft.UI.Xaml.Controls.ToggleMenuFlyoutItem""}"
+?,[383],"""ToggleButtonRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ToggleButton"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.ToggleButton""}"
+?,[384],"""TitleLargeTextBlockStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TextBlock"" FullName = ""Microsoft.UI.Xaml.Controls.TextBlock""}"
+?,[385],"""TimePickerFlyoutPresenterItemPadding""",object {string},"{0,3,0,6}",object {Microsoft.UI.Xaml.Thickness},"{0,3,0,6}"
+,[386],"""TimePickerFlyoutPresenterItemHeight""",object {string},40,object {double},40
+,[387],"""ThemeShadowIsUsingDropShadows""",object {string},TRUE,object {bool},TRUE
+?,[388],"""TeachingTipTopHighlightOffsetForBorder""",object {string},"{0,1,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,1,0,0}"
+,[389],"""TeachingTipTopHighlightHeight""",object {string},1,object {double},1
+?,[390],"""TeachingTipTitleStackPanelMarginWithHeaderCloseButton""",object {string},"{0,0,28,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,28,0}"
+?,[391],"""TeachingTipTitleStackPanelMarginWithFooterCloseButton""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+?,[392],"""TeachingTipTailShortSideLength""",object {string},{8},object {Microsoft.UI.Xaml.GridLength},{8}
+?,[393],"""TeachingTipTailPolygonMarginTop""",object {string},"{0,-1,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,-1,0,0}"
+?,[394],"""TeachingTipTailPolygonMarginRight""",object {string},"{0,0,-1,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,-1,0}"
+?,[395],"""TeachingTipTailPolygonMarginLeft""",object {string},"{-1,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{-1,0,0,0}"
+?,[396],"""TeachingTipTailPolygonMarginBottom""",object {string},"{0,0,0,-1}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,-1}"
+?,[397],"""TeachingTipTailMargin""",object {string},{10},object {Microsoft.UI.Xaml.GridLength},{10}
+?,[398],"""TeachingTipRightButtonMargin""",object {string},"{4,12,0,0}",object {Microsoft.UI.Xaml.Thickness},"{4,12,0,0}"
+,[399],"""TeachingTipMinWidth""",object {string},320,object {double},320
+,[400],"""TeachingTipMinHeight""",object {string},40,object {double},40
+,[401],"""TeachingTipMaxWidth""",object {string},336,object {double},336
+,[402],"""TeachingTipMaxHeight""",object {string},520,object {double},520
+?,[403],"""TeachingTipMainContentPresentMargin""",object {string},"{0,12,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,12,0,0}"
+?,[404],"""TeachingTipMainContentAbsentMargin""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+?,[405],"""TeachingTipLeftButtonMargin""",object {string},"{0,12,4,0}",object {Microsoft.UI.Xaml.Thickness},"{0,12,4,0}"
+?,[406],"""TeachingTipIconPresenterMarginWithoutIcon""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+?,[407],"""TeachingTipIconPresenterMarginWithIcon""",object {string},"{0,0,12,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,12,0}"
+?,[408],"""TeachingTipContentMargin""",object {string},"{12,12,12,12}",object {Microsoft.UI.Xaml.Thickness},"{12,12,12,12}"
+?,[409],"""TeachingTipContentBorderThicknessUntargeted""",object {string},"{1,1,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,1}"
+?,[410],"""TeachingTipContentBorderThicknessTop""",object {string},"{1,1,1,0}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,0}"
+?,[411],"""TeachingTipContentBorderThicknessRight""",object {string},"{0,1,1,1}",object {Microsoft.UI.Xaml.Thickness},"{0,1,1,1}"
+?,[412],"""TeachingTipContentBorderThicknessLeft""",object {string},"{1,1,0,1}",object {Microsoft.UI.Xaml.Thickness},"{1,1,0,1}"
+?,[413],"""TeachingTipContentBorderThicknessBottom""",object {string},"{1,0,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,0,1,1}"
+?,[414],"""TeachingTipButtonPanelMargin""",object {string},"{0,12,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,12,0,0}"
+,[415],"""TeachingTipBorderThickness""",object {string},1,object {double},1
+,[416],"""TabViewShadowDepth""",object {string},16,object {double},16
+?,[417],"""TabViewSelectedItemHeaderPadding""",object {string},"{9,3,5,4}",object {Microsoft.UI.Xaml.Thickness},"{9,3,5,4}"
+?,[418],"""TabViewSelectedItemHeaderMargin""",object {string},"{-1,0,-1,0}",object {Microsoft.UI.Xaml.Thickness},"{-1,0,-1,0}"
+?,[419],"""TabViewSelectedItemBorderThickness""",object {string},"{1,1,1,0}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,0}"
+?,[420],"""TabViewRightInsetCornerConverter""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter}
+?,[421],"""TabViewLeftInsetCornerConverter""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter}
+?,[422],"""TabViewItemSeparatorMargin""",object {string},"{0,8,0,8}",object {Microsoft.UI.Xaml.Thickness},"{0,8,0,8}"
+,[423],"""TabViewItemScrollButtonWidth""",object {string},32,object {double},32
+?,[424],"""TabViewItemScrollButtonPadding""",object {string},"{7,3,7,3}",object {Microsoft.UI.Xaml.Thickness},"{7,3,7,3}"
+,[425],"""TabViewItemScrollButtonHeight""",object {string},24,object {double},24
+,[426],"""TabViewItemScrollButonFontSize""",object {string},8,object {double},8
+?,[427],"""TabViewItemRightScrollButtonContainerPadding""",object {string},"{3,0,0,3}",object {Microsoft.UI.Xaml.Thickness},"{3,0,0,3}"
+,[428],"""TabViewItemMinWidth""",object {string},100,object {double},100
+,[429],"""TabViewItemMinHeight""",object {string},32,object {double},32
+,[430],"""TabViewItemMaxWidth""",object {string},240,object {double},240
+?,[431],"""TabViewItemLeftScrollButtonContainerPadding""",object {string},"{0,0,3,3}",object {Microsoft.UI.Xaml.Thickness},"{0,0,3,3}"
+?,[432],"""TabViewItemHeaderPadding""",object {string},"{8,3,4,3}",object {Microsoft.UI.Xaml.Thickness},"{8,3,4,3}"
+,[433],"""TabViewItemHeaderIconSize""",object {string},16,object {double},16
+?,[434],"""TabViewItemHeaderIconMargin""",object {string},"{0,0,10,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,10,0}"
+,[435],"""TabViewItemHeaderFontSize""",object {string},12,object {double},12
+?,[436],"""TabViewItemHeaderCloseMargin""",object {string},"{4,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{4,0,0,0}"
+,[437],"""TabViewItemHeaderCloseFontSize""",object {string},12,object {double},12
+,[438],"""TabViewItemHeaderCloseButtonWidth""",object {string},32,object {double},32
+,[439],"""TabViewItemHeaderCloseButtonSize""",object {string},16,object {double},16
+,[440],"""TabViewItemHeaderCloseButtonHeight""",object {string},24,object {double},24
+?,[441],"""TabViewItemBorderThickness""",object {string},"{1,1,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,1}"
+,[442],"""TabViewItemAddButtonWidth""",object {string},32,object {double},32
+,[443],"""TabViewItemAddButtonHeight""",object {string},24,object {double},24
+,[444],"""TabViewItemAddButtonFontSize""",object {string},12,object {double},12
+?,[445],"""TabViewItemAddButtonContainerPadding""",object {string},"{3,0,0,3}",object {Microsoft.UI.Xaml.Thickness},"{3,0,0,3}"
+?,[446],"""TabViewHeaderPadding""",object {string},"{4,8,4,0}",object {Microsoft.UI.Xaml.Thickness},"{4,8,4,0}"
+?,[447],"""SwipeItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarButton""}"
+?,[448],"""SubtitleTextBlockStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TextBlock"" FullName = ""Microsoft.UI.Xaml.Controls.TextBlock""}"
+?,[449],"""SplitViewPaneRootCornerRadius""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.CornerRadius},"{0,0,0,0}"
+?,[450],"""SplitButtonRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""SplitButton"" FullName = ""Microsoft.UI.Xaml.Controls.SplitButton""}"
+?,[451],"""SemanticZoomRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""SemanticZoom"" FullName = ""Microsoft.UI.Xaml.Controls.SemanticZoom""}"
+,[452],"""ScrollViewerSeparatorContractFinalKeyframe""",object {string},"""00:00:02.1""",object {string},"""00:00:02.1"""
+,[453],"""ScrollViewScrollBarsSeparatorExpandDuration""",object {string},"""00:00:00.1""",object {string},"""00:00:00.1"""
+,[454],"""ScrollViewScrollBarsSeparatorExpandDelay""",object {string},"""00:00:00.4""",object {string},"""00:00:00.4"""
+,[455],"""ScrollViewScrollBarsSeparatorExpandDelayWithoutAnimation""",object {string},"""00:00:00.4""",object {string},"""00:00:00.4"""
+,[456],"""ScrollViewScrollBarsSeparatorDisplayDelayWithoutAnimation""",object {string},"""00:00:00.725""",object {string},"""00:00:00.725"""
+,[457],"""ScrollViewScrollBarsSeparatorContractDuration""",object {string},"""00:00:00.1""",object {string},"""00:00:00.1"""
+,[458],"""ScrollViewScrollBarsSeparatorContractDelay""",object {string},"""00:00:02""",object {string},"""00:00:02"""
+,[459],"""ScrollViewScrollBarsSeparatorContractDelayWithoutAnimation""",object {string},"""00:00:02""",object {string},"""00:00:02"""
+,[460],"""ScrollViewScrollBarsSeparatorContractDelayDisabled""",object {string},"""00:00:00""",object {string},"""00:00:00"""
+,[461],"""ScrollViewScrollBarsNoTouchDuration""",object {string},"""00:00:00.5""",object {string},"""00:00:00.5"""
+?,[462],"""ScrollViewScrollBarsMargin""",object {string},"{1,1,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,1}"
+,[463],"""ScrollBarContractFinalKeyframe""",object {string},"""00:00:02.1""",object {string},"""00:00:02.1"""
+,[464],"""ScrollBarContractDelay""",object {string},"""00:00:02""",object {string},"""00:00:02"""
+?,[465],"""RightThicknessFilterConverter""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter}
+?,[466],"""RepeatButtonRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""RepeatButton"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.RepeatButton""}"
+?,[467],"""RadioMenuFlyoutSubItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""MenuFlyoutSubItem"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem""}"
+?,[468],"""RadioButtonsTopHeaderMargin""",object {string},"{0,0,0,8}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,8}"
+,[469],"""RadioButtonsRowSpacing""",object {string},8,object {double},8
+,[470],"""RadioButtonsColumnSpacing""",object {string},7,object {double},7
+,[471],"""RadioButtonCheckGlyphPressedOverSize""",object {string},10,object {double},10
+,[472],"""RadioButtonCheckGlyphPointerOverSize""",object {string},14,object {double},14
+,[473],"""ProgressRingStrokeThickness""",object {string},4,object {double},4
+,[474],"""ProgressBarTrackHeight""",object {string},1,object {double},1
+?,[475],"""ProgressBarTrackCornerRadius""",object {string},"{0.5,0.5,0.5,0.5}",object {Microsoft.UI.Xaml.CornerRadius},"{0.5,0.5,0.5,0.5}"
+,[476],"""ProgressBarMinHeight""",object {string},3,object {double},3
+?,[477],"""ProgressBarCornerRadius""",object {string},"{1.5,1.5,1.5,1.5}",object {Microsoft.UI.Xaml.CornerRadius},"{1.5,1.5,1.5,1.5}"
+?,[478],"""PivotTitleContentControlStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ContentControl"" FullName = ""Microsoft.UI.Xaml.Controls.ContentControl""}"
+?,[479],"""PipsPagerSelectedPipButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+?,[480],"""PipsPagerPreviousPageButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+?,[481],"""PipsPagerNormalPipButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+?,[482],"""PipsPagerNextPageButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+,[483],"""PipsPagerButtonWidth""",object {string},20,object {double},20
+,[484],"""PipsPagerButtonHeight""",object {string},12,object {double},12
+?,[485],"""PaneToggleButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+,[486],"""PaneToggleButtonSize""",object {string},40,object {double},40
+?,[487],"""PagerControlPageNavigationButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+?,[488],"""PagerControlNumberPanelButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+?,[489],"""NumberBoxSpinButtonBorderThickness""",object {string},"{0,1,1,1}",object {Microsoft.UI.Xaml.Thickness},"{0,1,1,1}"
+,[490],"""NumberBoxPopupVerticalOffset""",object {string},-27,object {double},-27
+,[491],"""NumberBoxPopupShadowDepth""",object {string},16,object {double},16
+?,[492],"""NumberBoxPopupIndicatorMargin""",object {string},"{0,0,8,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,8,0}"
+,[493],"""NumberBoxPopupHorizonalOffset""",object {string},-21,object {double},-21
+,[494],"""NumberBoxMinWidth""",object {string},120,object {double},120
+?,[495],"""NumberBoxIconMargin""",object {string},"{10,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{10,0,0,0}"
+,[496],"""NavigationViewTopPaneHeight""",object {string},48,object {double},48
+?,[497],"""NavigationViewTitleHeaderContentControlTextStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ContentControl"" FullName = ""Microsoft.UI.Xaml.Controls.ContentControl""}"
+?,[498],"""NavigationViewPaneTitlePresenterMargin""",object {string},"{8,4,0,0}",object {Microsoft.UI.Xaml.Thickness},"{8,4,0,0}"
+?,[499],"""NavigationViewPaneSearchButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+,[500],"""NavigationViewPaneHeaderRowMinHeight""",object {string},40,object {double},40
+?,[501],"""NavigationViewPaneContentGridMargin""",object {string},"{-1,3,-1,3}",object {Microsoft.UI.Xaml.Thickness},"{-1,3,-1,3}"
+?,[502],"""NavigationViewOverflowButtonStyleWhenPaneOnTop""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+?,[503],"""NavigationViewOverflowButtonNoLabelStyleWhenPaneOnTop""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+?,[504],"""NavigationViewMinimalHeaderMargin""",object {string},"{-24,44,0,0}",object {Microsoft.UI.Xaml.Thickness},"{-24,44,0,0}"
+?,[505],"""NavigationViewMinimalContentGridCornerRadius""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.CornerRadius},"{0,0,0,0}"
+?,[506],"""NavigationViewMinimalContentGridBorderThickness""",object {string},"{0,1,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,1,0,0}"
+?,[507],"""NavigationViewItemSeparatorMargin""",object {string},"{0,3,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,3,0,4}"
+,[508],"""NavigationViewItemSeparatorHeight""",object {string},1,object {double},1
+?,[509],"""NavigationViewItemMargin""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+?,[510],"""NavigationViewItemInnerHeaderMargin""",object {string},"{16,0,16,0}",object {Microsoft.UI.Xaml.Thickness},"{16,0,16,0}"
+?,[511],"""NavigationViewItemHeaderTextStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TextBlock"" FullName = ""Microsoft.UI.Xaml.Controls.TextBlock""}"
+?,[512],"""NavigationViewItemChildrenMenuFlyoutPadding""",object {string},"{0,8,0,8}",object {Microsoft.UI.Xaml.Thickness},"{0,8,0,8}"
+,[513],"""NavigationViewIconBoxWidth""",object {string},40,object {double},40
+?,[514],"""NavigationViewContentPresenterMargin""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+?,[515],"""NavigationViewContentMargin""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+?,[516],"""NavigationViewContentGridCornerRadius""",object {string},"{8,0,0,0}",object {Microsoft.UI.Xaml.CornerRadius},"{8,0,0,0}"
+?,[517],"""NavigationViewContentGridBorderThickness""",object {string},"{1,1,0,0}",object {Microsoft.UI.Xaml.Thickness},"{1,1,0,0}"
+?,[518],"""NavigationViewCompactItemSeparatorMargin""",object {string},"{0,3,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,3,0,4}"
+?,[519],"""NavigationViewBorderThickness""",object {string},"{1,1,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,1}"
+?,[520],"""NavigationViewAutoSuggestBoxMargin""",object {string},"{16,0,16,0}",object {Microsoft.UI.Xaml.Thickness},"{16,0,16,0}"
+,[521],"""NavigationViewAutoSuggestAreaHeight""",object {string},40,object {double},40
+?,[522],"""MenuFlyoutSubItemRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""MenuFlyoutSubItem"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutSubItem""}"
+?,[523],"""MenuFlyoutScrollerMargin""",object {string},"{0,4,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,4,0,4}"
+?,[524],"""MenuFlyoutItemRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""MenuFlyoutItem"" FullName = ""Microsoft.UI.Xaml.Controls.MenuFlyoutItem""}"
+?,[525],"""MenuBarItemMargin""",object {string},"{4,4,4,4}",object {Microsoft.UI.Xaml.Thickness},"{4,4,4,4}"
+?,[526],"""MenuBarItemButtonPadding""",object {string},"{10,4,10,4}",object {Microsoft.UI.Xaml.Thickness},"{10,4,10,4}"
+,[527],"""MenuBarHeight""",object {string},40,object {double},40
+?,[528],"""MUX_NavigationViewSettingsItemStyleWhenOnTopPane""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""NavigationViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.NavigationViewItem""}"
+?,[529],"""MUX_NavigationViewItemPresenterStyleWhenOnTopPane""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""NavigationViewItemPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenter""}"
+?,[530],"""MUX_NavigationViewItemPresenterStyleWhenOnTopPaneWithRevealFocus""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""NavigationViewItemPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenter""}"
+?,[531],"""MUX_NavigationViewItemPresenterStyleWhenOnTopPaneOverflow""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""NavigationViewItemPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenter""}"
+?,[532],"""MUX_NavigationViewItemPresenterStyleWhenOnLeftPane""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""NavigationViewItemPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenter""}"
+?,[533],"""MUX_NavigationViewItemPresenterStyleWhenOnLeftPaneWithRevealFocus""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""NavigationViewItemPresenter"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenter""}"
+?,[534],"""ListViewItemRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ListViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.ListViewItem""}"
+?,[535],"""ListViewItemRevealBackgroundShowsAboveContentStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ListViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.ListViewItem""}"
+?,[536],"""ListViewItemExpanded""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ListViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.ListViewItem""}"
+,[537],"""ListViewBaseItemRoundedChromeEnabled""",object {string},TRUE,object {bool},TRUE
+?,[538],"""ListPickerFlyoutPresenterItemStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},{Microsoft.UI.Xaml.Style}
+?,[539],"""LeftThicknessFilterConverter""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter}
+,[540],"""InfoBarWarningIconGlyph""",object {string},"""?""",object {string},"""?"""
+?,[541],"""InfoBarTitleVerticalOrientationMargin""",object {string},"{0,14,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,14,0,0}"
+?,[542],"""InfoBarTitleHorizontalOrientationMargin""",object {string},"{0,14,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,14,0,0}"
+?,[543],"""InfoBarTitleFontWeight""",object {string},{Windows.UI.Text.FontWeight},object {Windows.UI.Text.FontWeight},{Windows.UI.Text.FontWeight}
+,[544],"""InfoBarTitleFontSize""",object {string},14,object {double},14
+,[545],"""InfoBarSuccessIconGlyph""",object {string},"""?""",object {string},"""?"""
+?,[546],"""InfoBarPanelVerticalOrientationPadding""",object {string},"{0,14,0,18}",object {Microsoft.UI.Xaml.Thickness},"{0,14,0,18}"
+?,[547],"""InfoBarPanelMargin""",object {string},"{0,0,16,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,16,0}"
+?,[548],"""InfoBarPanelHorizontalOrientationPadding""",object {string},"{0,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,0}"
+,[549],"""InfoBarMinHeight""",object {string},48,object {double},48
+?,[550],"""InfoBarMessageVerticalOrientationMargin""",object {string},"{0,4,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,4,0,0}"
+?,[551],"""InfoBarMessageHorizontalOrientationMargin""",object {string},"{12,14,0,0}",object {Microsoft.UI.Xaml.Thickness},"{12,14,0,0}"
+?,[552],"""InfoBarMessageFontWeight""",object {string},{Windows.UI.Text.FontWeight},object {Windows.UI.Text.FontWeight},{Windows.UI.Text.FontWeight}
+,[553],"""InfoBarMessageFontSize""",object {string},14,object {double},14
+,[554],"""InfoBarInformationalIconGlyph""",object {string},"""?""",object {string},"""?"""
+?,[555],"""InfoBarIconMargin""",object {string},"{0,16,14,16}",object {Microsoft.UI.Xaml.Thickness},"{0,16,14,16}"
+,[556],"""InfoBarIconFontSize""",object {string},16,object {double},16
+,[557],"""InfoBarIconBackgroundGlyph""",object {string},"""?""",object {string},"""?"""
+?,[558],"""InfoBarHyperlinkButtonPadding""",object {string},"{0,0,0,1}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,1}"
+,[559],"""InfoBarHyperlinkButtonMinHeight""",object {string},24,object {double},24
+?,[560],"""InfoBarHyperlinkButtonMargin""",object {string},"{-12,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{-12,0,0,0}"
+,[561],"""InfoBarHyperlinkButtonFontSize""",object {string},14,object {double},14
+,[562],"""InfoBarErrorIconGlyph""",object {string},"""?""",object {string},"""?"""
+?,[563],"""InfoBarContentRootPadding""",object {string},"{16,0,0,0}",object {Microsoft.UI.Xaml.Thickness},"{16,0,0,0}"
+,[564],"""InfoBarCloseButtonSymbol""",object {string},Cancel,object {Microsoft.UI.Xaml.Controls.Symbol},Cancel
+?,[565],"""InfoBarCloseButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"
+,[566],"""InfoBarCloseButtonGlyphSize""",object {string},16,object {double},16
+?,[567],"""InfoBarActionVerticalOrientationMargin""",object {string},"{0,12,0,0}",object {Microsoft.UI.Xaml.Thickness},"{0,12,0,0}"
+?,[568],"""InfoBarActionHorizontalOrientationMargin""",object {string},"{16,8,0,0}",object {Microsoft.UI.Xaml.Thickness},"{16,8,0,0}"
+?,[569],"""InfoBarActionButtonPadding""",object {string},"{8,0,8,1}",object {Microsoft.UI.Xaml.Thickness},"{8,0,8,1}"
+,[570],"""InfoBarActionButtonMinWidth""",object {string},96,object {double},96
+,[571],"""InfoBarActionButtonMinHeight""",object {string},24,object {double},24
+?,[572],"""InfoBarActionButtonCornerRadius""",object {string},"{2,2,2,2}",object {Microsoft.UI.Xaml.CornerRadius},"{2,2,2,2}"
+,[573],"""HyperlinkUnderlineVisible""",object {string},FALSE,object {bool},FALSE
+?,[574],"""GridViewItemRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""GridViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.GridViewItem""}"
+?,[575],"""GridViewItemRevealBackgroundShowsAboveContentStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""GridViewItem"" FullName = ""Microsoft.UI.Xaml.Controls.GridViewItem""}"
+?,[576],"""ForegroundImageDefaultTemplate""",object {string},{Microsoft.UI.Xaml.DataTemplate},object {Microsoft.UI.Xaml.DataTemplate},{Microsoft.UI.Xaml.DataTemplate}
+?,[577],"""ForegroundGlyphDefaultTemplate""",object {string},{Microsoft.UI.Xaml.DataTemplate},object {Microsoft.UI.Xaml.DataTemplate},{Microsoft.UI.Xaml.DataTemplate}
+,[578],"""ExpanderPopinVerticalOffset""",object {string},1,object {double},1
+,[579],"""ExpanderMinHeight""",object {string},48,object {double},48
+,[580],"""ExpanderHeaderVerticalContentAlignment""",object {string},Center,object {Microsoft.UI.Xaml.VerticalAlignment},Center
+?,[581],"""ExpanderHeaderUpStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},{Microsoft.UI.Xaml.Style}
+,[582],"""ExpanderHeaderHorizontalContentAlignment""",object {string},Stretch,object {Microsoft.UI.Xaml.HorizontalAlignment},Stretch
+?,[583],"""ExpanderDropdownUpBorderThickness""",object {string},"{1,1,1,0}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,0}"
+?,[584],"""ExpanderDropdownDownBorderThickness""",object {string},"{1,0,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,0,1,1}"
+?,[585],"""ExpanderContentUpBorderThickness""",object {string},"{1,1,1,0}",object {Microsoft.UI.Xaml.Thickness},"{1,1,1,0}"
+?,[586],"""ExpanderContentPadding""",object {string},"{16,16,16,16}",object {Microsoft.UI.Xaml.Thickness},"{16,16,16,16}"
+?,[587],"""ExpanderContentDownBorderThickness""",object {string},"{1,0,1,1}",object {Microsoft.UI.Xaml.Thickness},"{1,0,1,1}"
+,[588],"""ExpanderChevronWidth""",object {string},1,object {double},1
+,[589],"""ExpanderChevronGlyph""",object {string},"""?""",object {string},"""?"""
+?,[590],"""DropDownButtonRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""DropDownButton"" FullName = ""Microsoft.UI.Xaml.Controls.DropDownButton""}"
+?,[591],"""DisplayTextBlockStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TextBlock"" FullName = ""Microsoft.UI.Xaml.Controls.TextBlock""}"
+?,[592],"""DefaultProgressBarStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ProgressBar"" FullName = ""Microsoft.UI.Xaml.Controls.ProgressBar""}"
+?,[593],"""DefaultInputValidationErrorTemplate""",object {string},{Microsoft.UI.Xaml.DataTemplate},object {Microsoft.UI.Xaml.DataTemplate},{Microsoft.UI.Xaml.DataTemplate}
+?,[594],"""DefaultCompactErrorIconTemplate""",object {string},{Microsoft.UI.Xaml.DataTemplate},object {Microsoft.UI.Xaml.DataTemplate},{Microsoft.UI.Xaml.DataTemplate}
+?,[595],"""DefaultCommandBarFlyoutCommandBarStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CommandBarFlyoutCommandBar"" FullName = ""Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBar""}"
+?,[596],"""DatePickerFlyoutPresenterMonthPadding""",object {string},"{9,3,0,6}",object {Microsoft.UI.Xaml.Thickness},"{9,3,0,6}"
+?,[597],"""DatePickerFlyoutPresenterItemPadding""",object {string},"{0,3,0,6}",object {Microsoft.UI.Xaml.Thickness},"{0,3,0,6}"
+,[598],"""DatePickerFlyoutPresenterItemHeight""",object {string},40,object {double},40
+?,[599],"""CommandBarWithoutRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CommandBar"" FullName = ""Microsoft.UI.Xaml.Controls.CommandBar""}"
+?,[600],"""CommandBarRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CommandBar"" FullName = ""Microsoft.UI.Xaml.Controls.CommandBar""}"
+,[601],"""ComboBoxPopupThemeTouchMinWidth""",object {string},240,object {double},240
+,[602],"""ComboBoxPopupThemeMinWidth""",object {string},80,object {double},80
+,[603],"""ComboBoxPopupMaxNumberOfItems""",object {string},15,object {int},15
+,[604],"""ComboBoxPopupMaxNumberOfItemsThatCanBeShownOnOneSide""",object {string},7,object {int},7
+?,[605],"""ComboBoxPopupBorderThemeThickness""",object {string},"{2,2,2,2}",object {Microsoft.UI.Xaml.Thickness},"{2,2,2,2}"
+?,[606],"""ComboBoxPlaceholderTextThemeFontWeight""",object {string},{Windows.UI.Text.FontWeight},object {Windows.UI.Text.FontWeight},{Windows.UI.Text.FontWeight}
+?,[607],"""ComboBoxItemRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""ComboBoxItem"" FullName = ""Microsoft.UI.Xaml.Controls.ComboBoxItem""}"
+?,[608],"""ComboBoxHeaderThemeMargin""",object {string},"{0,0,0,4}",object {Microsoft.UI.Xaml.Thickness},"{0,0,0,4}"
+,[609],"""ComboBoxArrowThemeFontSize""",object {string},21,object {double},21
+,[610],"""ColorPickerSliderInnerThumbWidth""",object {string},10,object {double},10
+,[611],"""ColorPickerSliderInnerThumbHeight""",object {string},10,object {double},10
+?,[612],"""ColorPickerSliderCornerRadius""",object {string},"{5,5,5,5}",object {Microsoft.UI.Xaml.CornerRadius},"{5,5,5,5}"
+?,[613],"""ColorPickerBorderStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Shape"" FullName = ""Microsoft.UI.Xaml.Shapes.Shape""}"
+?,[614],"""CalendarViewRevealStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""CalendarView"" FullName = ""Microsoft.UI.Xaml.Controls.CalendarView""}"
+?,[615],"""BottomThicknessFilterConverter""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusToThicknessConverter}
+?,[616],"""BottomRightCornerRadiusDoubleValueConverter8x""",object {string},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},object {Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter},{Microsoft.UI.Xaml.Controls.Primitives.CornerRadiusFilterConverter}
+?,[617],"""BodyStrongTextBlockStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""TextBlock"" FullName = ""Microsoft.UI.Xaml.Controls.TextBlock""}"
+?,[618],"""BackgroundImageDefaultTemplate""",object {string},{Microsoft.UI.Xaml.DataTemplate},object {Microsoft.UI.Xaml.DataTemplate},{Microsoft.UI.Xaml.DataTemplate}
+?,[619],"""BackgroundGlyphDefaultTemplate""",object {string},{Microsoft.UI.Xaml.DataTemplate},object {Microsoft.UI.Xaml.DataTemplate},{Microsoft.UI.Xaml.DataTemplate}
+?,[620],"""AutoSuggestBoxQueryButtonPadding""",object {string},"{3,2,3,2}",object {Microsoft.UI.Xaml.Thickness},"{3,2,3,2}"
+,[621],"""AutoSuggestBoxLeftButtonMargin""",object {string},3,object {double},3
+?,[622],"""AppBarToggleButtonRevealOverflowStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarToggleButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarToggleButton""}"
+?,[623],"""AppBarToggleButtonRevealLabelsOnRightStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarToggleButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarToggleButton""}"
+?,[624],"""AppBarButtonRevealOverflowStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarButton""}"
+?,[625],"""AppBarButtonRevealLabelsOnRightStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""AppBarButton"" FullName = ""Microsoft.UI.Xaml.Controls.AppBarButton""}"
+?,[626],"""AlternateCloseButtonStyle""",object {string},{Microsoft.UI.Xaml.Style},object {Microsoft.UI.Xaml.Style},"{Name = ""Button"" FullName = ""Microsoft.UI.Xaml.Controls.Button""}"

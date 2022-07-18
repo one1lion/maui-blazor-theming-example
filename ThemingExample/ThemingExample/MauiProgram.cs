@@ -22,14 +22,14 @@ public static class MauiProgram
 			.ConfigureLifecycleEvents(events =>
 			{
 #if WINDOWS
-				events.AddWindows(windows => windows
-					.OnWindowCreated(async window =>
-					{
-						window.ExtendsContentIntoTitleBar = true;
-						await Task.Delay(60);
-						window.SetTitleBar(new CustomTitleBar());
-					})
-				);
+				//events.AddWindows(windows => windows
+				//	.OnWindowCreated(async window =>
+				//	{
+				//		window.ExtendsContentIntoTitleBar = true;
+				//		await Task.Delay(60);
+				//		window.SetTitleBar(new CustomTitleBar());
+				//	})
+				//);
 #endif
 			}); ;
 

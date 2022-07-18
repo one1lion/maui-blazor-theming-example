@@ -4,15 +4,16 @@ namespace ThemingExample.Resources.Themes;
 
 public partial class ThemeResourceDictionary : ResourceDictionary, ITheme
 {
+    public static IEnumerable<Type> KeepProps { get; } = new[]
+    {
+        typeof(Color),
+        typeof(Brush)
+    };
+    
     public ThemeResourceDictionary(ITheme theme)
     {
-        var keepProps = new[]
-        {
-            typeof(Color),
-            typeof(Brush)
-        };
-        var myProps = GetType().GetProperties().Where(x => keepProps.Contains(x.PropertyType));
-        foreach (var curProp in theme.GetType().GetProperties().Where(x => keepProps.Contains(x.PropertyType)))
+        var myProps = GetType().GetProperties().Where(x => KeepProps.Contains(x.PropertyType));
+        foreach (var curProp in theme.GetType().GetProperties().Where(x => KeepProps.Contains(x.PropertyType)))
         {
             Add(curProp.Name, curProp.GetValue(theme));
             var myProp = myProps.Single(x => x.Name == curProp.Name);
@@ -25,7 +26,10 @@ public partial class ThemeResourceDictionary : ResourceDictionary, ITheme
 
     public Color PageBackgroundColor { get; private set; }
     public Color PrimaryTextColor { get; private set; }
-    public Color BarBackgroundColor { get; private set; }
+    public Brush WindowCaptionBackground { get; private set; }
+    public Brush WindowCaptionButtonBackground { get; private set; }
+    public Brush WindowCaptionButtonBackgroundPointerOver { get; private set; }
+    public Brush CloseButtonBackgroundPointerOver { get; private set; }
     public Color BarTextColor { get; private set; }
     public Color ButtonBackgroundColor { get; private set; }
 }

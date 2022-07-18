@@ -6,6 +6,7 @@ using ThemingExample.ThemeManager;
 using Microsoft.Maui.Handlers;
 using Microsoft.Maui.Controls;
 using System.Diagnostics;
+using System.Runtime.InteropServices;
 
 namespace ThemingExample.Platforms.Windows;
 
@@ -14,6 +15,16 @@ public static class WindowHelpers
     public static Microsoft.UI.Xaml.Window GetActiveNativeWindow() => 
         (Microsoft.UI.Xaml.Window)Application.Current.Windows.FirstOrDefault()?.Handler?.PlatformView;
 
+    private const int WmPaint = 0x000F;
+
+    [DllImport("User32.dll")]
+    public static extern long SendMessage(IntPtr hWnd, uint msg, IntPtr wParam, IntPtr lParam);
+
+    public static void ForcePaint(this IntPtr hWind)
+    {
+        SendMessage(hWind, WmPaint, IntPtr.Zero, IntPtr.Zero);
+    }
+    
     public static AppWindow GetActiveAppWindow()
     {
         var nativeWindow = GetActiveNativeWindow();

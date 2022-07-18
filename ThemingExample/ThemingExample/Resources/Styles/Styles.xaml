@@ -15,7 +15,7 @@
         <Setter Property="Padding" Value="14,10" />
     </Style>
 
-    <Style TargetType="Grid">
-        <Setter Property="BackgroundColor" Value="{StaticResource BarBackgroundColor}" />
-    </Style>
+    <!--<Style TargetType="Grid">
+        <Setter Property="BackgroundColor" Value="{StaticResource WindowCaptionButtonBackground}" />
+    </Style>-->
 </ResourceDictionary>

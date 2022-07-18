@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Window 
+    x:Class="ThemingExample.WinUI.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel x:Name="grid1" Background="Transparent">
+        <Border>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="Yellow" Offset="0.0" />
+                    <GradientStop Color="Red" Offset="0.25" />
+                    <GradientStop Color="Blue" Offset="0.50" />
+                    <GradientStop Color="LimeGreen" Offset="1.0" />
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid x:Name="AppTitleBar" Height="32" Background="Transparent">
+                <Grid.RowDefinitions>
+                    <!-- Is this the row resize handle?  Try changing the size to find out -->
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition x:Name="LeftPaddingColumn" Width="0"/>
+                    <ColumnDefinition />
+                    <ColumnDefinition x:Name="RightPaddingColumn" Width="0"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.Row="1" Grid.Column="1" Source="dotnet_bot.svg"
+                       HorizontalAlignment="Left"
+                       Width="24" Height="30" Margin="12,0" />
+
+                <TextBlock Grid.Row="1" Grid.Column="1"
+                           Style="{StaticResource CaptionTextBlockStyle}"
+                           Margin="54,-4"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Left"
+                           FontSize="18"
+                           Text="Theming Example"
+                           Foreground="Navy"
+                           FontWeight="Normal" />
+            </Grid>
+        </Border>
+        
+        
+    </StackPanel>
+    
+</Window>

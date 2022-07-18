@@ -32,6 +32,17 @@ public static class ThemeHelpers
             ) ?? null;
     }
 
+#if WINDOWS
+    public static Microsoft.UI.Xaml.ResourceDictionary GetActiveThemeResource(this ICollection<Microsoft.UI.Xaml.ResourceDictionary> mergedDictionaries)
+    {
+        return mergedDictionaries?
+            .FirstOrDefault(x =>
+                (x.GetType().Name?.Contains("Theme") ?? false)
+                || (x.Source?.OriginalString?.Contains("/Themes") ?? false)
+            ) ?? null;
+    }
+#endif
+    
     public static bool Is(this ColorTheme theme, ResourceDictionary themeDictionary)
     {
         if (themeDictionary is null) { return false; }

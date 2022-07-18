@@ -1,12 +1,15 @@
 ﻿// To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
+using Microsoft.Maui.Controls.Platform;
 using Microsoft.Maui.Handlers;
 using Microsoft.UI;
 using Microsoft.UI.Windowing;
-using Microsoft.UI.Xaml;
+using System.Diagnostics;
 using ThemingExample.Platforms.Windows;
+using ThemingExample.Resources.Themes;
 using ThemingExample.Shared.State;
+using ThemingExample.Shared.Theming;
 using ThemingExample.ThemeManager;
 using WinRT.Interop;
 
@@ -17,6 +20,10 @@ namespace ThemingExample.WinUI;
 /// </summary>
 public partial class App : MauiWinUIApplication
 {
+
+    private IThemeManager _themeManager;
+    private PreferencesState _preferencesState;
+    private Resources.Styles.Colors _colorsDict;
     /// <summary>
     /// Initializes the singleton application object.  This is the first line of authored code
     /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -27,6 +34,10 @@ public partial class App : MauiWinUIApplication
 
         WindowHandler.Mapper.AppendToMapping(nameof(IWindow), (handler, view) =>
         {
+            _themeManager = handler.MauiContext.Services.GetService<IThemeManager>();
+            _preferencesState = handler.MauiContext.Services.GetService<PreferencesState>();
+            _colorsDict = handler.MauiContext.Services.GetService<Resources.Styles.Colors>();
+
             var width = 1420;
             var height = 838;
 
@@ -42,13 +53,18 @@ public partial class App : MauiWinUIApplication
             var windowId = Win32Interop.GetWindowIdFromWindow(hWnd);
             var appWindow = AppWindow.GetFromWindowId(windowId);
 
-            var preferencesState = handler.MauiContext.Services.GetService<PreferencesState>();
-            var themeManager = handler.MauiContext.Services.GetService<IThemeManager>();
+            var preferencesState = _preferencesState;
+            var themeManager = _themeManager;
 
             Task.Run(() => preferencesState.Initialize()).Wait();
+
             var activeTheme = themeManager[preferencesState.ActiveTheme];
 
-            WindowHelpers.ApplyColorTheme(activeTheme, appWindow);
+            ApplyTheme(_preferencesState.ActiveTheme);
+
+            //WindowHelpers.ApplyColorTheme(activeTheme, appWindow);
+
+            preferencesState.PropertyChanged += HandlePreferenceChanged;
 
             // TODO: On close, remember which display the app is on and try to center the app on that display first.
             //       If that fails, then center on the display it is opening on.
@@ -65,6 +81,59 @@ public partial class App : MauiWinUIApplication
                 )
             );
         });
+    }
+
+    private void HandlePreferenceChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+    {
+        if (e.PropertyName == nameof(PreferencesState.ActiveTheme))
+        {
+            ApplyTheme(_preferencesState.ActiveTheme);
+        }
+    }
+
+    private void ApplyTheme(ColorTheme theme)
+    {
+#if WINDOWS
+        //return;
+        var resDict = Current.Resources;
+        var themeClass = theme.GetThemeType();
+        var curTheme = (ITheme)Activator.CreateInstance(themeClass, _colorsDict);
+
+        foreach (var curProp in themeClass.GetProperties().Where(x => ThemeResourceDictionary.KeepProps.Contains(x.PropertyType)))
+        {
+            object value = default!;
+            switch (curProp.GetValue(curTheme))
+            {
+                case Color c:
+                    //value = c.ToMediaColor();
+                    value = c.ToWinUiColor();
+                    break;
+
+                case Brush b:
+                    value = b.ToBrush();
+                    break;
+
+                default:
+                    continue;
+            };
+
+            if (resDict.ContainsKey(curProp.Name))
+            {
+                resDict[curProp.Name] = value;
+            }
+            else
+            {
+                resDict.Add(curProp.Name, value);
+            }
+        }
+
+        var nativeWindow = (Microsoft.UI.Xaml.Window)Current.Application.Windows.FirstOrDefault()?.Handler?.PlatformView;
+        if(nativeWindow is not null)
+        {
+            var hWnd = WindowNative.GetWindowHandle(nativeWindow);
+            hWnd.ForcePaint();
+        }
+#endif
     }
 
     protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
