@@ -59,10 +59,15 @@ public partial class App : Application, IDisposable
 #endif
     }
 
+    
     protected override Window CreateWindow(IActivationState activationState)
     {
+        //var window = new MainMauiWindow()
+        //{
+        //    Title = "Theming Example"
+        //};
+        //window.Handler = base.CreateWindow(activationState).Handler;
         var window = base.CreateWindow(activationState);
-        window.Title = "Theming Example";
 
         return window;
     }

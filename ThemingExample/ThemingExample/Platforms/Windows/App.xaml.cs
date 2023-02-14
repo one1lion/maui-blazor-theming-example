@@ -11,6 +11,7 @@ using ThemingExample.Resources.Themes;
 using ThemingExample.Shared.State;
 using ThemingExample.Shared.Theming;
 using ThemingExample.ThemeManager;
+using Windows.UI.Core;
 using WinRT.Interop;
 
 namespace ThemingExample.WinUI;
@@ -20,7 +21,8 @@ namespace ThemingExample.WinUI;
 /// </summary>
 public partial class App : MauiWinUIApplication
 {
-
+    private Microsoft.UI.Xaml.Window _window;
+    
     private IThemeManager _themeManager;
     private PreferencesState _preferencesState;
     private Resources.Styles.Colors _colorsDict;
@@ -83,6 +85,17 @@ public partial class App : MauiWinUIApplication
         });
     }
 
+    /// <summary>
+    /// Invoked when the application is launched normally by the end user.  Other entry points
+    /// will be used such as when the application is launched to open a specific file.
+    /// </summary>
+    /// <param name="args">Details about the launch request and process.</param>
+    //protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
+    //{
+    //    _window = new MainWindow();
+    //    _window.Activate();
+    //}
+
     private void HandlePreferenceChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
     {
         if (e.PropertyName == nameof(PreferencesState.ActiveTheme))
@@ -130,8 +143,11 @@ public partial class App : MauiWinUIApplication
         var nativeWindow = (Microsoft.UI.Xaml.Window)Current.Application.Windows.FirstOrDefault()?.Handler?.PlatformView;
         if(nativeWindow is not null)
         {
+            Current.Application.Windows.FirstOrDefault().AddOverlay(Current.Application.Windows.FirstOrDefault().VisualDiagnosticsOverlay);
             var hWnd = WindowNative.GetWindowHandle(nativeWindow);
             hWnd.ForcePaint();
+            nativeWindow.Dispatcher?.ProcessEvents(CoreProcessEventsOption.ProcessAllIfPresent);
+            Current.Application.Windows.FirstOrDefault().RemoveOverlay(Current.Application.Windows.FirstOrDefault().VisualDiagnosticsOverlay);
         }
 #endif
     }
